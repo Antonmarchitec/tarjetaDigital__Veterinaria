@@ -343,7 +343,7 @@
 /*******************************************
 *******************************************/
 
-@media (min-width:423px) and (max-width:720px){
+@media (min-width:771px) and (max-width:1024px){
     .continer__main{
         width: 100%;
         max-width: 1240px;
@@ -362,18 +362,20 @@
                 margin: auto;
                 border: 2px solid rgba(255, 255, 255, 0.199);
                 position: relative;
-                background: yellow;
+                background: teal;
 
                 .container__legend{
-                    width: 45%;
+                    width: 70%;
                     margin: auto;
                     text-align: center;
                     padding: 10px;
+                    background: teal;
                     .legend__title{
                         font-size: 35px;
                         font-weight: 700;
                         color: $color_verde;
                         font-family: Poppins;
+                        background: rgb(187, 123, 123);
                         //text-shadow: 2px 2px 2px$color_azul;
                        
                     }
@@ -382,6 +384,8 @@
                         font-size: 20px;
                         font-family: Poppins;
                         font-weight: 300;
+                        background: violet;
+
                         
                     }
     
@@ -394,9 +398,11 @@
     
                     .container__nav{
                         margin: auto;
-                        width: 80%;
+                        width: 100%;
                         //background: rgb(0, 164, 3);
                         //padding: 5px;
+                        background: green;
+
     
                         .container__nav_ul{
                             margin: auto;
@@ -437,6 +443,8 @@
                         
                     }
     
+
+                    
                     .legend__description{
                         width: 100%;
                         margin: 15px auto;
@@ -677,3 +685,6 @@
     }
     
 }
+
+
+

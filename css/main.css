@@ -282,7 +282,7 @@
 
 /*******************************************
 *******************************************/
-@media (min-width: 423px) and (max-width: 720px) {
+@media (min-width: 771px) and (max-width: 1024px) {
   .continer__main {
     width: 100%;
     max-width: 1240px;
@@ -303,7 +303,7 @@
     margin: auto;
     border: 2px solid rgba(255, 255, 255, 0.199);
     position: relative;
-    background: yellow;
+    background: teal;
     /*
     .container__bloque{
         width: 62%;
@@ -372,22 +372,25 @@
     */
   }
   .continer__main .main__base .container .container__legend {
-    width: 45%;
+    width: 70%;
     margin: auto;
     text-align: center;
     padding: 10px;
+    background: teal;
   }
   .continer__main .main__base .container .container__legend .legend__title {
     font-size: 35px;
     font-weight: 700;
     color: rgb(17, 83, 86);
     font-family: Poppins;
+    background: rgb(187, 123, 123);
   }
   .continer__main .main__base .container .container__legend .legend__legend {
     margin-top: -5px;
     font-size: 20px;
     font-family: Poppins;
     font-weight: 300;
+    background: violet;
   }
   .continer__main .main__base .container .container__legend .container_linea {
     width: 180px;
@@ -397,7 +400,8 @@
   }
   .continer__main .main__base .container .container__legend .container__nav {
     margin: auto;
-    width: 80%;
+    width: 100%;
+    background: green;
   }
   .continer__main .main__base .container .container__legend .container__nav .container__nav_ul {
     margin: auto;
@@ -566,6 +570,10 @@
     color: #58bec3;
   }
 }
+body {
+  background: teal;
+}
+
 /*@font-face{
     src: url(../fonts/Typo_Round_Regular_Demo.otf);
     font-family: "Typo Round";
