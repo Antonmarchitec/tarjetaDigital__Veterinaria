@@ -1,9 +1,4 @@
-/*
-menu
-banner
-servicos
-
-*/
+@import "variables";
 
 .bloque__main{
     width: 100%;
@@ -14,32 +9,27 @@ servicos
     .menu{
         width: 100%;
         padding: 10px 0px;
-        background: rgb(57, 57, 57);
+        background:$color-negro;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         .menu__logo{
             margin-left: 20px;
-            width: 50px;
-            height: 50px;
-            background: black;
+            width: 90px;
+            height: 70px;
         }
 
         .menu__nav{
             width: 400px;
             padding: 10px 0px;
-            background: black;
-            /*
-             menu__navUl
-             menu__navUlLi
-             liLink
+            //background: black;
+            margin-right: 20px;
 
-            */
             .menu__navUl{
                 width: 100%;
                 padding: 5px 0px;
-                background:rgb(52, 52, 52);
+                //background:rgb(52, 52, 52);
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
@@ -47,21 +37,41 @@ servicos
                 .menu__navUlLi{
                     width: 30%;
                     padding: 5px 0px;
-                    background:rgb(105, 105, 105);
+                    background:$color-verde-oscuro;
                     list-style: none;
                     text-align: center;
+                    transform: skew(-5deg);
+                    transition: 0.2s all;
                     .liLink{
                         text-decoration: none;
+                        color: $color_blanco;
+                        transition: 0.2s all;
+
                     }
                 }
+
+                .menu__navUlLi:hover{
+                    background: $color_blanco;
+                    .liLink{
+                        color: $color-verde-oscuro;
+                        font-weight: 700;
+                    }
+                }
+
+
+                
             }
+           
+
         }
 
+    
         .menu__btnHamburguesa{
             margin-right: 20px;
             width: 50px;
             height: 50px;
             background: black;
+            display: none;
         }
        
 
@@ -155,10 +165,10 @@ servicos
                         width: 200px;
                         padding: 10px 20px;
                         margin-left: -10px;
-                        background: rgb(215, 215, 215);
+                        background: rgb(255, 255, 255);
                         border-radius: 0px 20px 20px 0px;
                         border: 2px solid white;
-
+                        line-height: 25px;
                     }
                 }
                 .subBloque__text{
