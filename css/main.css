@@ -578,8 +578,10 @@ servicos
 */
 .bloque__main {
   width: 100%;
+  max-width: 1240px;
   padding: 10px 0px;
   background: grey;
+  margin: auto;
 }
 .bloque__main .menu {
   width: 100%;
@@ -589,13 +591,6 @@ servicos
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /*
-
-
-  menu__navUl
-  menu__navUlLi
-  liLink
-  */
 }
 .bloque__main .menu .menu__logo {
   margin-left: 20px;
@@ -607,6 +602,31 @@ servicos
   width: 400px;
   padding: 10px 0px;
   background: black;
+  /*
+   menu__navUl
+   menu__navUlLi
+   liLink
+
+  */
+}
+.bloque__main .menu .menu__nav .menu__navUl {
+  width: 100%;
+  padding: 5px 0px;
+  background: rgb(52, 52, 52);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi {
+  width: 30%;
+  padding: 5px 0px;
+  background: rgb(105, 105, 105);
+  list-style: none;
+  text-align: center;
+}
+.bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi .liLink {
+  text-decoration: none;
 }
 .bloque__main .menu .menu__btnHamburguesa {
   margin-right: 20px;
@@ -615,16 +635,89 @@ servicos
   background: black;
 }
 .bloque__main .banner {
-  margin: 10px auto;
+  margin: 10px 0px;
   width: 100%;
-  padding: 10px 0px;
+  padding: 10px 20px;
   background: rgb(57, 57, 57);
+  color: wheat;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.bloque__main .banner .banner__bloqueLeft {
+  width: 700px;
+  padding: 60px 0px;
+  background: black;
+  text-align: center;
+}
+.bloque__main .banner .banner__bloqueLeft .banner__title {
+  color: white;
+  font-size: 100px;
+  line-height: 100px;
+  letter-spacing: -5px;
+}
+.bloque__main .banner .banner__bloqueLeft .banner__subTitle {
+  margin-top: 30px;
+  color: white;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+.bloque__main .banner .banner__bloqueRight {
+  width: 350px;
+  height: 500px;
+  padding: 10px;
+  background: black;
+  color: white;
 }
 .bloque__main .servicios {
   margin: 10px auto;
   width: 100%;
-  padding: 10px 0px;
+  padding: 10px 20px;
   background: rgb(57, 57, 57);
+}
+.bloque__main .servicios .servicios__bloque {
+  width: 100%;
+  padding: 10px 0px;
+  background: black;
+}
+.bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque {
+  width: 400px;
+  padding: 10px;
+  background: rgb(118, 118, 118);
+}
+.bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__figureText {
+  width: 100%;
+  padding: 10px;
+  background: rgb(181, 181, 181);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__figureText .figure {
+  width: 150px;
+  height: 150px;
+  background: white;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 100;
+  border: 2px solid white;
+}
+.bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__figureText .legenda {
+  width: 200px;
+  padding: 10px 20px;
+  margin-left: -10px;
+  background: rgb(215, 215, 215);
+  border-radius: 0px 20px 20px 0px;
+  border: 2px solid white;
+}
+.bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__text {
+  margin-top: 10px;
+  width: 100%;
+  padding: 5px 0px;
+  background: rgb(181, 181, 181);
 }
 
 /*@font-face{
