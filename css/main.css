@@ -620,9 +620,10 @@
 }
 .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi:hover {
   background: white;
+  cursor: pointer;
 }
 .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi:hover .liLink {
-  color: rgba(16, 174, 185, 0.6862745098);
+  color: rgb(32, 32, 32);
   font-weight: 700;
 }
 .bloque__main .menu .menu__btnHamburguesa {
@@ -636,8 +637,7 @@
   margin: 10px 0px;
   width: 100%;
   padding: 10px 20px;
-  background: rgb(57, 57, 57);
-  color: wheat;
+  background: white;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -646,26 +646,25 @@
 .bloque__main .banner .banner__bloqueLeft {
   width: 700px;
   padding: 60px 0px;
-  background: black;
+  background: white;
   text-align: center;
 }
 .bloque__main .banner .banner__bloqueLeft .banner__title {
-  color: white;
-  font-size: 100px;
-  line-height: 100px;
+  color: rgb(17, 83, 86);
+  font-size: 120px;
+  line-height: 90px;
   letter-spacing: -5px;
 }
 .bloque__main .banner .banner__bloqueLeft .banner__subTitle {
   margin-top: 30px;
-  color: white;
+  color: rgb(32, 32, 32);
   font-size: 40px;
   letter-spacing: 5px;
 }
 .bloque__main .banner .banner__bloqueRight {
-  width: 350px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
   padding: 10px;
-  background: black;
   color: white;
 }
 .bloque__main .servicios {

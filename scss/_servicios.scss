@@ -52,8 +52,9 @@
 
                 .menu__navUlLi:hover{
                     background: $color_blanco;
+                    cursor: pointer;
                     .liLink{
-                        color: $color-verde-oscuro;
+                        color: $color-negro;
                         font-weight: 700;
                     }
                 }
@@ -82,8 +83,7 @@
         margin: 10px 0px;
         width: 100%;
         padding: 10px 20px;
-        background: rgb(57, 57, 57);
-        color: wheat;
+        background:$color_blanco;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -91,19 +91,19 @@
         .banner__bloqueLeft{    
             width:700px;
             padding: 60px 0px;
-            background: black;
+            background: $color_blanco;
             text-align: center;
 
             .banner__title{
-                color: white;
-                font-size:100px;
-                line-height: 100px;
+                color: $color-verde;
+                font-size:120px;
+                line-height: 90px;
                 letter-spacing: -5px;
                 
             }
             .banner__subTitle{
                 margin-top: 30px;
-                color: white;
+                color: $color-negro;
                 font-size: 40px;
                 letter-spacing: 5px;
                 
@@ -111,10 +111,10 @@
         }
 
         .banner__bloqueRight{
-            width: 350px;
-            height: 500px;
+            width: 450px;
+            height: 450px;
             padding: 10px;
-            background: black;
+            //background: black;
             color: white;   
         }
       
