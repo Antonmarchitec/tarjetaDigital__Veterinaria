@@ -1,4 +1,68 @@
-body{
+/*
+menu
+banner
+servicos
 
-    background: teal;
+*/
+
+.bloque__main{
+    width: 100%;
+    padding: 10px 0px;
+    background: grey;
+
+    .menu{
+        width: 100%;
+        padding: 10px 0px;
+        background: rgb(57, 57, 57);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .menu__logo{
+            margin-left: 20px;
+            width: 50px;
+            height: 50px;
+            background: black;
+        }
+
+        .menu__nav{
+            width: 400px;
+            padding: 10px 0px;
+            background: black;
+        }
+
+        .menu__btnHamburguesa{
+            margin-right: 20px;
+            width: 50px;
+            height: 50px;
+            background: black;
+        }
+        /*
+       
+        
+        menu__navUl
+        menu__navUlLi
+        liLink
+        */
+
+
+    }
+
+    .banner{
+        margin: 10px auto;
+        width: 100%;
+        padding: 10px 0px;
+        background: rgb(57, 57, 57);
+    }
+
+
+    .servicios{
+        margin: 10px auto;
+        width: 100%;
+        padding: 10px 0px;
+        background: rgb(57, 57, 57);
+    }
+
 }
+
+
