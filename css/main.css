@@ -673,22 +673,30 @@ servicos
 .bloque__main .servicios {
   margin: 10px auto;
   width: 100%;
-  padding: 10px 20px;
+  padding: 10px 0px;
   background: rgb(57, 57, 57);
 }
 .bloque__main .servicios .servicios__bloque {
   width: 100%;
   padding: 10px 0px;
   background: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque {
-  width: 400px;
-  padding: 10px;
-  background: rgb(118, 118, 118);
+  width: 380px;
+  height: 240px;
+  padding: 2px;
+  margin: 25px 0px;
+  background: rgb(214, 145, 145);
+  position: relative;
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__figureText {
   width: 100%;
-  padding: 10px;
+  padding: 5px;
   background: rgb(181, 181, 181);
   display: flex;
   flex-direction: row;
@@ -714,10 +722,84 @@ servicos
   border: 2px solid white;
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__text {
-  margin-top: 10px;
+  width: 60%;
+  padding: 2px;
+  background: rgb(83, 83, 83);
+  position: absolute;
+  right: 0px;
+  bottom: 35px;
+}
+.bloque__main .footer {
+  width: 100%;
+  padding: 30px 0px;
+  background: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.bloque__main .footer .footer__banner {
+  width: 500px;
+  height: 320px;
+  padding: 20px;
+  background: rgb(68, 68, 68);
+  position: relative;
+}
+.bloque__main .footer .footer__banner .footer__banner__text {
+  font-size: 70px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: -2px;
+  line-height: 60px;
+}
+.bloque__main .footer .footer__banner .footer__banner__img {
+  width: 100px;
+  height: 100px;
+  background: black;
+  position: absolute;
+  bottom: 0px;
+  right: 50px;
+}
+.bloque__main .footer .footer__redesNav {
+  width: 400px;
+  padding: 5px 0px;
+  background: rgb(49, 49, 49);
+}
+.bloque__main .footer .footer__redesNav .footer__redes {
+  width: 180px;
+  margin: auto;
+  background: rgb(77, 77, 77);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.bloque__main .footer .footer__redesNav .footer__redes .footer__redes {
+  width: 50px;
+  height: 50px;
+}
+.bloque__main .footer .footer__redesNav .footer__nav {
+  width: 100%;
+  background: rgb(47, 47, 47);
+}
+.bloque__main .footer .footer__redesNav .footer__nav .footer__navUl {
   width: 100%;
   padding: 5px 0px;
-  background: rgb(181, 181, 181);
+  background: rgb(47, 47, 47);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.bloque__main .footer .footer__redesNav .footer__nav .footer__navUl .footer__navUlLi {
+  width: 200px;
+  padding: 10px 0px;
+  list-style: none;
+  background: rgb(102, 102, 102);
+  text-align: center;
+}
+.bloque__main .footer .footer__redesNav .footer__nav .footer__navUl .footer__navUlLi .footer_liLink {
+  text-decoration: none;
+  color: white;
 }
 
 /*@font-face{
