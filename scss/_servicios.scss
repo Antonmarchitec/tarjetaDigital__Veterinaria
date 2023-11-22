@@ -4,7 +4,8 @@
     width: 100%;
     max-width: 1240px;
     padding: 10px 0px;
-    background:brown;
+    //background:brown;
+    
     margin: auto;
     .menu{
         width: 100%;
@@ -37,11 +38,10 @@
                 .menu__navUlLi{
                     width: 30%;
                     padding: 5px 0px;
-                    background:$color-verde-oscuro;
+                    //background:$color-verde-oscuro;
                     list-style: none;
                     text-align: center;
-                    transform: skew(-5deg);
-                    transition: 0.2s all;
+                   
                     .liLink{
                         text-decoration: none;
                         color: $color_blanco;
@@ -123,10 +123,9 @@
 
     /********************************/
     .servicios{
-        margin: 30px auto;
+        margin:auto;
         width: 100%;
         padding: 10px 0px;
-        background: $color-verde-oscuro;
         .servicios__bloque{
             width: 100%;
             padding: 10px 0px;
@@ -138,10 +137,12 @@
             .servicios__bloque_subBloque{
                 width: 360px;
                 height: 210px;
-                padding: 10px;   
+                padding: 20px;   
                 margin: 25px 0px;
+                border-radius: 10px;
                 position: relative;
-                background: yellow;
+                background: $color-negro;
+                box-shadow: 0px 0px 15px grey;
                 .subBloque__figureText{
                     width: 100%;
                     display: flex;
@@ -153,19 +154,21 @@
                         width: 100px;
                         height: 100px;
                         border-radius: 50%;
+                        background: $color_blanco;
                         overflow:hidden;
                         position: relative;
                         z-index: 100;
-                        border: 2px solid white;
+                        border: 4px solid $color-verde-oscuro;
                         padding: 15px;
+                        box-shadow: 5px 0px 10px $color-verde-oscuro;
                     }
                     .legenda{
-                        width: 200px;
-                        padding: 10px 20px;
-                        margin-left: -10px;
+                        width: 220px;
+                        padding: 8px 20px;
+                        margin-left: -15px;
                         background: rgb(255, 255, 255);
                         border-radius: 0px 20px 20px 0px;
-                        border: 2px solid white;
+                        border: 4px solid $color-verde-oscuro;
                         line-height: 25px;
                     }
                 }
@@ -174,7 +177,9 @@
                     padding: 2px;
                     position: absolute;
                     right: 10px;
-                    bottom: 10px;
+                    bottom: 30px;
+                    color: $color_blanco;   
+                    font-size: 14px;
                 }
 
             }
