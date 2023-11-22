@@ -574,8 +574,11 @@
   width: 100%;
   max-width: 1240px;
   padding: 10px 0px;
-  background: grey;
+  background: brown;
   margin: auto;
+  /********************************/
+  /********************************/
+  /*******************************/
 }
 .bloque__main .menu {
   width: 100%;
@@ -636,7 +639,7 @@
 .bloque__main .banner {
   margin: 10px 0px;
   width: 100%;
-  padding: 10px 20px;
+  padding: 50px 20px;
   background: white;
   display: flex;
   flex-direction: row;
@@ -644,39 +647,38 @@
   align-items: flex-start;
 }
 .bloque__main .banner .banner__bloqueLeft {
-  width: 700px;
-  padding: 60px 0px;
+  width: 600px;
+  padding: 100px 0px;
   background: white;
   text-align: center;
 }
 .bloque__main .banner .banner__bloqueLeft .banner__title {
-  color: rgb(17, 83, 86);
+  margin-top: 50px;
+  color: rgb(32, 32, 32);
   font-size: 120px;
   line-height: 90px;
   letter-spacing: -5px;
 }
 .bloque__main .banner .banner__bloqueLeft .banner__subTitle {
-  margin-top: 30px;
-  color: rgb(32, 32, 32);
+  color: rgba(16, 174, 185, 0.6862745098);
   font-size: 40px;
-  letter-spacing: 5px;
+  letter-spacing: 11px;
 }
 .bloque__main .banner .banner__bloqueRight {
-  width: 450px;
-  height: 450px;
+  width: 500px;
+  height: 650px;
   padding: 10px;
   color: white;
 }
 .bloque__main .servicios {
-  margin: 10px auto;
+  margin: 30px auto;
   width: 100%;
   padding: 10px 0px;
-  background: rgb(57, 57, 57);
+  background: rgba(16, 174, 185, 0.6862745098);
 }
 .bloque__main .servicios .servicios__bloque {
   width: 100%;
   padding: 10px 0px;
-  background: black;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -684,17 +686,15 @@
   align-items: flex-start;
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque {
-  width: 380px;
-  height: 240px;
-  padding: 2px;
+  width: 360px;
+  height: 210px;
+  padding: 10px;
   margin: 25px 0px;
-  background: rgb(214, 145, 145);
   position: relative;
+  background: yellow;
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__figureText {
   width: 100%;
-  padding: 5px;
-  background: rgb(181, 181, 181);
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -702,13 +702,14 @@
   position: relative;
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__figureText .figure {
-  width: 150px;
-  height: 150px;
-  background: white;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   overflow: hidden;
+  position: relative;
   z-index: 100;
   border: 2px solid white;
+  padding: 15px;
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__figureText .legenda {
   width: 200px;
@@ -722,10 +723,9 @@
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__text {
   width: 60%;
   padding: 2px;
-  background: rgb(83, 83, 83);
   position: absolute;
-  right: 0px;
-  bottom: 35px;
+  right: 10px;
+  bottom: 10px;
 }
 .bloque__main .footer {
   width: 100%;
