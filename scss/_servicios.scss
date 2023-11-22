@@ -3,10 +3,11 @@
 .bloque__main{
     width: 100%;
     max-width: 1240px;
-    padding: 10px 0px;
-    //background:brown;
+    padding: 0px 0px;
+    //  background:brown;
     
     margin: auto;
+    position: relative;
     .menu{
         width: 100%;
         padding: 10px 0px;
@@ -85,7 +86,6 @@
         margin: 10px 0px;
         width: 100%;
         padding: 50px 20px;
-        background:$color_blanco;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -93,7 +93,6 @@
         .banner__bloqueLeft{    
             width:600px;
             padding: 100px 0px;
-            background: $color_blanco;
             text-align: center;
             .banner__title{
                 margin-top: 50px;
@@ -191,7 +190,7 @@
     /*******************************/
     .footer{
         width: 100%;
-        padding: 30px 0px;
+        padding: 100px 0px;
         //background: rgb(1,12,13);
         //background: linear-gradient(90deg, rgba(1,12,13,1) 0%, rgba(16,172,183,1) 35%, rgba(0,90,108,1) 100%);
         background: linear-gradient(transparent,$color-verdea);
@@ -212,6 +211,7 @@
                 font-weight: 700;
                 letter-spacing: -2px;
                 line-height: 60px;
+                text-shadow: -2px 2px 0px $color_blanco;
             }
 
             .footer__banner__img{
@@ -262,6 +262,37 @@
             }
         }
         
+    }
+
+    /*FLOTANTES*/
+    .PERRITO{
+        width: 750px;
+        height: 500px;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .HUELLA{
+        width: 800px;
+        height: 500px;
+        position: absolute;
+        top: 550px;
+        left: 10px;
+        opacity: 0.5;
+        transform: rotate(30deg);
+        z-index: -10;
+    }
+
+    .CASITA {
+        width: 500px;
+        height: 500px;
+        transform: rotate(10deg);
+        position: absolute; 
+        bottom: 50px;
+        left: 20px;
+        opacity: 0.2;
+        z-index: -10;
     }
     
     
