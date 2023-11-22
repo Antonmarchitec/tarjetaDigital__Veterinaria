@@ -140,7 +140,7 @@
   transition: 0.3s all;
 }
 .continer__main .main__base .container .container__legend .container__nav .container__nav_ul .container__nav_ul_li:hover .link {
-  color: rgba(16, 174, 185, 0.6862745098);
+  color: rgba(16, 172, 183, 0.6862745098);
 }
 .continer__main .main__base .container .container__legend .legend__description {
   width: 100%;
@@ -430,7 +430,7 @@
     transition: 0.3s all;
   }
   .continer__main .main__base .container .container__legend .container__nav .container__nav_ul .container__nav_ul_li:hover .link {
-    color: rgba(16, 174, 185, 0.6862745098);
+    color: rgba(16, 172, 183, 0.6862745098);
   }
   .continer__main .main__base .container .container__legend .legend__description {
     width: 100%;
@@ -656,7 +656,7 @@
   letter-spacing: -5px;
 }
 .bloque__main .banner .banner__bloqueLeft .banner__subTitle {
-  color: rgba(16, 174, 185, 0.6862745098);
+  color: rgba(16, 172, 183, 0.6862745098);
   font-size: 40px;
   letter-spacing: 11px;
 }
@@ -706,9 +706,9 @@
   overflow: hidden;
   position: relative;
   z-index: 100;
-  border: 4px solid rgba(16, 174, 185, 0.6862745098);
+  border: 4px solid rgba(16, 172, 183, 0.6862745098);
   padding: 15px;
-  box-shadow: 5px 0px 10px rgba(16, 174, 185, 0.6862745098);
+  box-shadow: 5px 0px 10px rgba(16, 172, 183, 0.6862745098);
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__figureText .legenda {
   width: 220px;
@@ -716,7 +716,7 @@
   margin-left: -15px;
   background: rgb(255, 255, 255);
   border-radius: 0px 20px 20px 0px;
-  border: 4px solid rgba(16, 174, 185, 0.6862745098);
+  border: 4px solid rgba(16, 172, 183, 0.6862745098);
   line-height: 25px;
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__text {
@@ -731,22 +731,21 @@
 .bloque__main .footer {
   width: 100%;
   padding: 30px 0px;
-  background: black;
+  background: linear-gradient(transparent, rgba(16, 174, 185, 0.6156862745));
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
 }
 .bloque__main .footer .footer__banner {
   width: 500px;
   height: 320px;
   padding: 20px;
-  background: rgb(68, 68, 68);
   position: relative;
 }
 .bloque__main .footer .footer__banner .footer__banner__text {
   font-size: 70px;
-  color: white;
+  color: rgb(32, 32, 32);
   font-weight: 700;
   letter-spacing: -2px;
   line-height: 60px;
@@ -754,7 +753,6 @@
 .bloque__main .footer .footer__banner .footer__banner__img {
   width: 100px;
   height: 100px;
-  background: black;
   position: absolute;
   bottom: 0px;
   right: 50px;
@@ -762,29 +760,24 @@
 .bloque__main .footer .footer__redesNav {
   width: 400px;
   padding: 5px 0px;
-  background: rgb(49, 49, 49);
 }
 .bloque__main .footer .footer__redesNav .footer__redes {
-  width: 180px;
+  width: 170px;
   margin: auto;
-  background: rgb(77, 77, 77);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
-.bloque__main .footer .footer__redesNav .footer__redes .footer__redes {
-  width: 50px;
-  height: 50px;
+.bloque__main .footer .footer__redesNav .footer__redes .icon__redes {
+  font-size: 30px;
 }
 .bloque__main .footer .footer__redesNav .footer__nav {
   width: 100%;
-  background: rgb(47, 47, 47);
 }
 .bloque__main .footer .footer__redesNav .footer__nav .footer__navUl {
   width: 100%;
   padding: 5px 0px;
-  background: rgb(47, 47, 47);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -793,7 +786,6 @@
   width: 200px;
   padding: 10px 0px;
   list-style: none;
-  background: rgb(102, 102, 102);
   text-align: center;
 }
 .bloque__main .footer .footer__redesNav .footer__nav .footer__navUl .footer__navUlLi .footer_liLink {
