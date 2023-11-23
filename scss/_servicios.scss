@@ -195,13 +195,13 @@
     /*******************************/
     .footer{
         width: 100%;
-        padding: 100px 0px;
+        padding: 100px 20px;
         //background: rgb(1,12,13);
         //background: linear-gradient(90deg, rgba(1,12,13,1) 0%, rgba(16,172,183,1) 35%, rgba(0,90,108,1) 100%);
         background: linear-gradient(transparent,$color-verdea);
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: flex-start;
         align-items: flex-start;
 
         .footer__banner{
@@ -229,52 +229,32 @@
             
         }
 
-        .footer__redesNav{
-            width: 400px;
-            padding: 5px 0px;
-            .footer__redes{
-                width: 170px;
-                margin: auto;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
-                align-items: center;
-                .icon__redes{
-                    font-size: 30px;
-                    
-                }
-            }
-    
-            .footer__nav{
-                width: 100%;
-                .footer__navUl{
-                width: 100%;
-                padding: 5px 0px;
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                    .footer__navUlLi{
-                    width: 200px;
-                    padding: 10px 0px;
-                    list-style: none;
-                    text-align: center;
-                        .footer_liLink{
-                            text-decoration: none;
-                            color: white;
-                        }
-                    }
-                }
-            }
-        }
+
         
     }
+
+
+    /*******************************/
+    .footer__textoo{
+        background: $color-negro;
+        text-align: center;
+        font-size: 14px;
+        padding: 10px 0px;
+        color: $color_blanco;
+        font-weight: 100;
+        .span{
+            color: $color-verdea;
+            font-weight: 100;
+        }
+    }
+
 
     /*FLOTANTES*/
     .PERRITO{
         width: 750px;
         height: 500px;
         position: absolute;
-        bottom: 10px;
+        bottom: 100px;
         right: 10px;
         animation-name:moverPerro;
         animation-duration: 5s;

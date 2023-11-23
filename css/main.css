@@ -580,6 +580,7 @@
   /********************************/
   /********************************/
   /*******************************/
+  /*******************************/
   /*FLOTANTES*/
 }
 .bloque__main .menu {
@@ -737,11 +738,11 @@
 }
 .bloque__main .footer {
   width: 100%;
-  padding: 100px 0px;
+  padding: 100px 20px;
   background: linear-gradient(transparent, rgba(16, 174, 185, 0.6156862745));
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 .bloque__main .footer .footer__banner {
@@ -765,46 +766,23 @@
   bottom: 0px;
   right: 50px;
 }
-.bloque__main .footer .footer__redesNav {
-  width: 400px;
-  padding: 5px 0px;
-}
-.bloque__main .footer .footer__redesNav .footer__redes {
-  width: 170px;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-.bloque__main .footer .footer__redesNav .footer__redes .icon__redes {
-  font-size: 30px;
-}
-.bloque__main .footer .footer__redesNav .footer__nav {
-  width: 100%;
-}
-.bloque__main .footer .footer__redesNav .footer__nav .footer__navUl {
-  width: 100%;
-  padding: 5px 0px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.bloque__main .footer .footer__redesNav .footer__nav .footer__navUl .footer__navUlLi {
-  width: 200px;
-  padding: 10px 0px;
-  list-style: none;
+.bloque__main .footer__textoo {
+  background: rgb(32, 32, 32);
   text-align: center;
-}
-.bloque__main .footer .footer__redesNav .footer__nav .footer__navUl .footer__navUlLi .footer_liLink {
-  text-decoration: none;
+  font-size: 14px;
+  padding: 10px 0px;
   color: white;
+  font-weight: 100;
+}
+.bloque__main .footer__textoo .span {
+  color: rgba(16, 174, 185, 0.6156862745);
+  font-weight: 100;
 }
 .bloque__main .PERRITO {
   width: 750px;
   height: 500px;
   position: absolute;
-  bottom: 10px;
+  bottom: 100px;
   right: 10px;
   animation-name: moverPerro;
   animation-duration: 5s;
