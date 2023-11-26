@@ -1682,8 +1682,7 @@
         padding: 0px;
         margin: auto;
         position: relative;
-        overflow: initial;
-        background: rgba(0, 128, 128, 0.445);
+        overflow: hidden;
 
         .menu{
             width: 100%;
@@ -1882,19 +1881,21 @@
             background:white;
             padding: 0px 0px;
             position: relative;
+
             .certificado_title{
                 margin: auto;
                 width: 100%;
                 text-align: center;
-                font-size: 45px;
-                line-height: 45px;
+                font-size: 32px;
+                line-height: 32px;
                 color: $color-verde-oscuro;
             }
             .certificado_subtitle{
                 width: 80%;
-                margin: auto;
+                margin: 10px auto;
                 text-align: center;
                 font-size: 18px;
+                line-height: 18px;
                 color: $color-negro;  
     
             }
@@ -1957,7 +1958,7 @@
         /*******************************/
         .footer{
             width: 100%;
-            height: 750px;
+            height: 600px;
             padding: 50px 0px;
             //background: linear-gradient(90deg, rgba(1,12,13,1) 0%, rgba(16,172,183,1) 35%, rgba(0,90,108,1) 100%);
             //background: linear-gradient(transparent,$color-verdea);
@@ -1971,11 +1972,11 @@
                 padding: 10px;
                 position: relative;
                 .footer__banner__text{
-                    font-size: 80px;
+                    font-size: 60px;
                     color:$color-verde-oscuro;
                     font-weight: 700;
                     letter-spacing: 2px;
-                    line-height: 80px;
+                    line-height: 60px;
                     font-family: "Caprica Sans";
                 }
     
@@ -2006,7 +2007,7 @@
             width: 100%;
             height: auto;
             position: absolute;
-            bottom: 220px;
+            bottom: 160px;
             right: initial;
             animation-name:moverPerro;
             animation-duration: 5s;
@@ -2029,7 +2030,7 @@
             width: 800px;
             height: 500px;
             position: absolute;
-            top: 950px;
+            top: 610px;
             left: -50px;
             opacity: 0.8;
             transform: rotate(30deg);
