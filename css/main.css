@@ -92,14 +92,14 @@
   padding: 10px;
 }
 .continer__main .main__base .container .container__legend .legend__title {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 700;
   color: rgb(17, 83, 86);
   font-family: Poppins;
 }
 .continer__main .main__base .container .container__legend .legend__legend {
-  margin-top: -5px;
-  font-size: 20px;
+  margin-top: -12px;
+  font-size: 25px;
   font-family: Poppins;
   font-weight: 300;
 }
@@ -115,10 +115,6 @@
 }
 .continer__main .main__base .container .container__legend .container__nav .container__nav_ul {
   margin: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
 }
 .continer__main .main__base .container .container__legend .container__nav .container__nav_ul .container__nav_ul_li {
   list-style: none;
@@ -132,9 +128,8 @@
 .continer__main .main__base .container .container__legend .container__nav .container__nav_ul .container__nav_ul_li .link {
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
   color: rgb(17, 83, 86);
-  font-weight: 700;
   padding: 0px 5px;
   border-left: 2px solid rgb(17, 83, 86);
   transition: 0.3s all;
@@ -145,7 +140,7 @@
 .continer__main .main__base .container .container__legend .legend__description {
   width: 100%;
   margin: 15px auto;
-  font-size: 16px;
+  font-size: 18px;
   font-family: Poppins;
   font-weight: 100;
 }
@@ -253,7 +248,7 @@
   width: 140px;
   height: 140px;
   position: absolute;
-  top: 250px;
+  top: 280px;
   right: 350px;
   animation-name: moverPatas;
   animation-duration: 4s;
@@ -717,7 +712,7 @@
   box-shadow: 5px 0px 10px #10acb7;
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__figureText .legenda {
-  width: 220px;
+  width: 250px;
   padding: 8px 20px;
   margin-left: -15px;
   background: rgb(255, 255, 255);
