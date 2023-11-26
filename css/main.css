@@ -140,7 +140,7 @@
   transition: 0.3s all;
 }
 .continer__main .main__base .container .container__legend .container__nav .container__nav_ul .container__nav_ul_li:hover .link {
-  color: rgba(16, 172, 183, 0.6862745098);
+  color: #10acb7;
 }
 .continer__main .main__base .container .container__legend .legend__description {
   width: 100%;
@@ -430,7 +430,7 @@
     transition: 0.3s all;
   }
   .continer__main .main__base .container .container__legend .container__nav .container__nav_ul .container__nav_ul_li:hover .link {
-    color: rgba(16, 172, 183, 0.6862745098);
+    color: #10acb7;
   }
   .continer__main .main__base .container .container__legend .legend__description {
     width: 100%;
@@ -630,7 +630,7 @@
   padding: 5px 0px;
 }
 .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi .liLink:hover {
-  color: rgba(16, 172, 183, 0.6862745098);
+  color: #10acb7;
   border-bottom: 2px solid white;
 }
 .bloque__main .menu .menu__btnHamburguesa {
@@ -662,7 +662,7 @@
   letter-spacing: -5px;
 }
 .bloque__main .banner .banner__bloqueLeft .banner__subTitle {
-  color: rgba(16, 172, 183, 0.6862745098);
+  color: #10acb7;
   font-size: 40px;
   letter-spacing: 11px;
 }
@@ -713,8 +713,8 @@
   overflow: hidden;
   position: relative;
   z-index: 100;
-  border: 4px solid rgba(16, 172, 183, 0.6862745098);
-  box-shadow: 5px 0px 10px rgba(16, 172, 183, 0.6862745098);
+  border: 4px solid #10acb7;
+  box-shadow: 5px 0px 10px #10acb7;
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__figureText .legenda {
   width: 220px;
@@ -722,7 +722,7 @@
   margin-left: -15px;
   background: rgb(255, 255, 255);
   border-radius: 0px 20px 20px 0px;
-  border: 4px solid rgba(16, 172, 183, 0.6862745098);
+  border: 4px solid #10acb7;
   line-height: 25px;
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__text {
@@ -751,7 +751,7 @@
   text-align: center;
   font-size: 70px;
   line-height: 70px;
-  color: rgba(16, 172, 183, 0.6862745098);
+  color: #10acb7;
 }
 .bloque__main .certificado .certificado_subtitle {
   text-align: center;
@@ -804,7 +804,6 @@
 .bloque__main .footer {
   width: 100%;
   padding: 100px 20px;
-  background: linear-gradient(transparent, rgba(16, 174, 185, 0.6156862745));
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -818,18 +817,11 @@
 }
 .bloque__main .footer .footer__banner .footer__banner__text {
   font-size: 70px;
-  color: rgb(32, 32, 32);
+  color: #10acb7;
   font-weight: 700;
-  letter-spacing: -2px;
-  line-height: 60px;
-  text-shadow: -2px 2px 0px white;
-}
-.bloque__main .footer .footer__banner .footer__banner__img {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  bottom: 0px;
-  right: 50px;
+  letter-spacing: 9px;
+  line-height: 80px;
+  font-family: "Caprica Sans";
 }
 .bloque__main .footer__textoo {
   background: rgb(32, 32, 32);
@@ -870,7 +862,7 @@
   position: absolute;
   top: 550px;
   left: 10px;
-  opacity: 0.2;
+  opacity: 0.8;
   transform: rotate(30deg);
   z-index: -100;
 }
@@ -881,12 +873,13 @@
   position: absolute;
   bottom: 50px;
   left: 20px;
+  z-index: -100;
   opacity: 0.2;
 }
 .bloque__main .CONTACTAME {
   width: 240px;
   background: rgba(255, 255, 255, 0.886);
-  border: 2px solid rgba(16, 172, 183, 0.6862745098);
+  border: 2px solid #10acb7;
   border-radius: 10px;
   position: fixed;
   bottom: 40px;
@@ -926,10 +919,10 @@
   visibility: visible;
 }
 
-/*@font-face{
-    src: url(../fonts/Typo_Round_Regular_Demo.otf);
-    font-family: "Typo Round";
-}*/
+@font-face {
+  src: url(../fonts/CapricaSansPersonalUse.ttf);
+  font-family: "Caprica Sans";
+}
 * {
   padding: 0;
   margin: 0;
