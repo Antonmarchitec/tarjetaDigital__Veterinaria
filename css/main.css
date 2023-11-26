@@ -285,7 +285,6 @@
     background-image: url(../images/SERV4.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
-    background: teal;
   }
   .continer__main .main__base {
     width: 100%;
@@ -373,7 +372,7 @@
     padding: 10px;
   }
   .continer__main .main__base .container .container__legend .legend__title {
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
     color: rgb(17, 83, 86);
     font-family: Poppins;
@@ -553,6 +552,227 @@
     font-size: 14px;
     padding: 10px 0px;
     font-weight: 300;
+  }
+  .continer__main .main__base .container .footer__text .span {
+    color: #58bec3;
+  }
+}
+/*******************************************
+*******************************************/
+@media (min-width: 481px) and (max-width: 770px) {
+  .continer__main {
+    width: 100%;
+    max-width: initial;
+    padding: initial;
+    margin: auto;
+    background-image: url(../images/SERV4.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  .continer__main .main__base {
+    width: 100%;
+    height: 100%;
+    padding: initial;
+    background: rgba(255, 255, 255, 0.851);
+  }
+  .continer__main .main__base .container {
+    width: 100%;
+    padding: initial;
+    margin: auto;
+    border: initial;
+    position: relative;
+  }
+  .continer__main .main__base .container .container__legend {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .continer__main .main__base .container .container__legend .legend__title {
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(17, 83, 86);
+    font-family: Poppins;
+  }
+  .continer__main .main__base .container .container__legend .legend__legend {
+    margin-top: -12px;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 300;
+  }
+  .continer__main .main__base .container .container__legend .container_linea {
+    width: 35%;
+    height: 4px;
+    margin: 10px auto;
+    background: rgb(17, 83, 86);
+  }
+  .continer__main .main__base .container .container__legend .container__nav {
+    margin: auto;
+    width: 80%;
+  }
+  .continer__main .main__base .container .container__legend .container__nav .container__nav_ul {
+    margin: auto;
+  }
+  .continer__main .main__base .container .container__legend .container__nav .container__nav_ul .container__nav_ul_li {
+    list-style: none;
+    padding: 5px;
+  }
+  .continer__main .main__base .container .container__legend .container__nav .container__nav_ul .container__nav_ul_li .icon {
+    font-size: 22px;
+    color: rgb(17, 83, 86);
+    padding: 0px 5px;
+  }
+  .continer__main .main__base .container .container__legend .container__nav .container__nav_ul .container__nav_ul_li .link {
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(17, 83, 86);
+    padding: 0px 5px;
+    border-left: 2px solid rgb(17, 83, 86);
+    transition: 0.3s all;
+  }
+  .continer__main .main__base .container .container__legend .container__nav .container__nav_ul .container__nav_ul_li:hover .link {
+    color: #10acb7;
+  }
+  .continer__main .main__base .container .container__legend .legend__description {
+    width: 90%;
+    margin: 15px auto;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 100;
+  }
+  .continer__main .main__base .container .container__photo {
+    width: 180px;
+    height: 180px;
+    border: 3px solid rgb(17, 83, 86);
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px auto;
+  }
+  .continer__main .main__base .container .container__imagen {
+    width: 420px;
+    height: 420px;
+    margin: -10px auto;
+  }
+  .continer__main .main__base .container .containerBase__block {
+    width: 100%;
+    padding: 0px 0px;
+    margin: 10px auto;
+  }
+  .continer__main .main__base .container .containerBase__block .baseBlock {
+    width: 65%;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: auto;
+  }
+  .continer__main .main__base .container .containerBase__block .baseBlock .container__block {
+    width: 80px;
+    padding: 8px 0px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .continer__main .main__base .container .containerBase__block .baseBlock .container__block .base__icon {
+    background: #191f2d;
+    padding: 2px;
+    border-radius: 5px;
+    border: 6px solid #10acb7;
+    transform: rotate(45deg);
+    box-shadow: -2.5px 2.5px 2px #58bec3;
+    transition: 0.3s all;
+    overflow: hidden;
+    background: white;
+  }
+  .continer__main .main__base .container .containerBase__block .baseBlock .container__block .base__icon .block__icon {
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    transform: rotate(-45deg);
+    transition-duration: 0.3s;
+    transition-delay: 0.2s;
+  }
+  .continer__main .main__base .container .containerBase__block .baseBlock .container__block a {
+    margin-top: 15px;
+    width: 150px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    background: rgb(32, 32, 32);
+    box-shadow: 0px 2px 3px rgb(32, 32, 32);
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: initial;
+    border: 2px solid #58bec3;
+    transition: 0.3s;
+    display: none;
+  }
+  .continer__main .main__base .container .containerBase__block .baseBlock .container__block a .block__legend {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 100;
+    color: white;
+  }
+  .continer__main .main__base .container .containerBase__block .baseBlock .container__block:hover .base__icon {
+    border: 6px solid #58bec3;
+    transform: rotate(20deg);
+    box-shadow: 0px 0px 10px rgb(32, 32, 32);
+  }
+  .continer__main .main__base .container .containerBase__block .baseBlock .container__block:hover .base__icon .block__icon {
+    transform: rotate(-20deg);
+  }
+  .continer__main .main__base .container .containerBase__block .baseBlock .container__block:hover a {
+    width: 180px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 3px 0px 0px rgb(255, 255, 255);
+  }
+  .continer__main .main__base .container .huella1 {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 420px;
+    left: calc(50% - 220px);
+    animation-name: moverPatas;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .continer__main .main__base .container .huella2 {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 350px;
+    right: calc(50% - 220px);
+    animation-name: moverPatas;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes moverPatas {
+    from {
+      transform: scale(1, 1);
+    }
+    to {
+      transform: scale(0.9, 0.9);
+    }
+  }
+  .continer__main .main__base .container .footer__text {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    padding: 30px 0px;
+    font-weight: 300;
+    background: rgb(32, 32, 32);
+    color: white;
   }
   .continer__main .main__base .container .footer__text .span {
     color: #58bec3;
