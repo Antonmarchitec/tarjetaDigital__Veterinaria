@@ -2317,16 +2317,16 @@
     align-items: flex-start;
   }
   .bloque__main .footer .footer__banner {
-    width: 650px;
-    height: 320px;
-    padding: 20px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
     position: relative;
   }
   .bloque__main .footer .footer__banner .footer__banner__text {
     font-size: 80px;
     color: #10acb7;
     font-weight: 700;
-    letter-spacing: 9px;
+    letter-spacing: 2px;
     line-height: 80px;
     font-family: "Caprica Sans";
   }
@@ -2343,11 +2343,11 @@
     font-weight: 100;
   }
   .bloque__main .PERRITO {
-    width: 550px;
-    height: 350px;
+    width: 100%;
+    height: auto;
     position: absolute;
-    bottom: 150px;
-    right: 10px;
+    bottom: 220px;
+    right: initial;
     animation-name: moverPerro;
     animation-duration: 5s;
     animation-timing-function: ease-in-out;
@@ -2367,8 +2367,8 @@
     width: 800px;
     height: 500px;
     position: absolute;
-    top: 1000px;
-    left: 10px;
+    top: 950px;
+    left: -50px;
     opacity: 0.8;
     transform: rotate(30deg);
     z-index: -100;
