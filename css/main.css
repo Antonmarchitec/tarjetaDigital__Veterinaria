@@ -579,9 +579,11 @@
   overflow: hidden;
   /********************************/
   /********************************/
+  /**********************************/
   /*******************************/
   /*******************************/
   /*FLOTANTES*/
+  /*FLIXIER PROGRAMA*/
 }
 .bloque__main .menu {
   width: 100%;
@@ -736,6 +738,69 @@
   transform: scale(1.08, 1.06);
   cursor: pointer;
 }
+.bloque__main .certificado {
+  margin-top: 50px;
+  width: 100%;
+  background: white;
+  padding: 100px 0px;
+  position: relative;
+}
+.bloque__main .certificado .certificado_title {
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  font-size: 70px;
+  line-height: 70px;
+  color: rgba(16, 172, 183, 0.6862745098);
+}
+.bloque__main .certificado .certificado_subtitle {
+  text-align: center;
+  color: rgb(32, 32, 32);
+}
+.bloque__main .certificado .certificado_img {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+}
+.bloque__main .certificado .certificado__bloque {
+  width: 100%;
+  padding: 50px 0px;
+  background: rgb(233, 233, 233);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.bloque__main .certificado .certificado__bloque .certificado__bloque__img {
+  width: 250px;
+  height: 250px;
+  background: grey;
+  border: 2px solid black;
+  border-radius: 10px 10px;
+  overflow: hidden;
+}
+.bloque__main .certificado .certificado__bloque .certificado__bloque__text {
+  padding: 10px 20px;
+}
+.bloque__main .certificado .certificado__bloque .certificado__bloque__text .text__nombre {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-size: 30px;
+}
+.bloque__main .certificado .certificado__bloque .certificado__bloque__text .text__nom {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+.bloque__main .certificado .certificado__bloque .certificado__bloque__text .text__nom .texto {
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+}
+.bloque__main .certificado .medalla {
+  width: 80px;
+  height: 100px;
+  position: absolute;
+  top: 650px;
+  left: 300px;
+}
 .bloque__main .footer {
   width: 100%;
   padding: 100px 20px;
@@ -770,7 +835,7 @@
   background: rgb(32, 32, 32);
   text-align: center;
   font-size: 14px;
-  padding: 10px 0px;
+  padding: 50px 0px;
   color: white;
   font-weight: 100;
 }
