@@ -883,6 +883,48 @@
   left: 20px;
   opacity: 0.2;
 }
+.bloque__main .CONTACTAME {
+  width: 240px;
+  background: rgba(255, 255, 255, 0.886);
+  border: 2px solid rgba(16, 172, 183, 0.6862745098);
+  border-radius: 10px;
+  position: fixed;
+  bottom: 40px;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  opacity: 0;
+  transition: 0.3s;
+  visibility: hidden;
+}
+.bloque__main .CONTACTAME .contact__logo {
+  width: 70px;
+  height: 70px;
+  animation-name: moverWats;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes moverWats {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.1, 1.1);
+  }
+}
+.bloque__main .CONTACTAME .contact__legend {
+  font-size: 18px;
+  color: black;
+}
+.bloque__main .iconTopJS {
+  opacity: 1;
+  visibility: visible;
+}
 
 /*@font-face{
     src: url(../fonts/Typo_Round_Regular_Demo.otf);
