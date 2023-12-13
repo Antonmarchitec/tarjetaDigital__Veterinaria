@@ -182,9 +182,9 @@
 }
 .continer__main .main__base .container .containerBase__block .baseBlock .container__block .base__icon {
   background: #191f2d;
-  padding: 2px;
+  padding: 8px;
   border-radius: 5px;
-  border: 6px solid #58bec3;
+  border: 4px solid #10acb7;
   transform: rotate(45deg);
   box-shadow: -2.5px 2.5px 2px #58bec3;
   transition: 0.3s all;
@@ -192,8 +192,8 @@
   background: rgb(255, 255, 255);
 }
 .continer__main .main__base .container .containerBase__block .baseBlock .container__block .base__icon .block__icon {
-  width: 45px;
-  height: 45px;
+  width: 35px;
+  height: 35px;
   overflow: hidden;
   transform: rotate(-45deg);
   transition-duration: 0.3s;
@@ -207,8 +207,8 @@
   background: rgb(25, 31, 45);
   padding: 8px;
   border-radius: 0px 20px 20px 0px;
-  margin-left: -20px;
-  border: 2px solid #58bec3;
+  margin-left: -25px;
+  border: 3px solid #58bec3;
   transition: 0.3s;
 }
 .continer__main .main__base .container .containerBase__block .baseBlock .container__block a .block__legend {
@@ -228,9 +228,7 @@
   transform: rotate(-90deg);
 }
 .continer__main .main__base .container .containerBase__block .baseBlock .container__block:hover a {
-  width: 220px;
-  border: 1px solid rgb(255, 255, 255);
-  box-shadow: 3px 0px 0px rgb(255, 255, 255);
+  width: 200px;
 }
 .continer__main .main__base .container .huella1 {
   width: 140px;
@@ -1118,7 +1116,7 @@
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque {
   width: 360px;
-  height: 210px;
+  height: 350px;
   padding: 20px;
   margin: 25px 0px;
   border-radius: 10px;
@@ -1126,6 +1124,7 @@
   background: rgb(32, 32, 32);
   box-shadow: 0px 0px 15px grey;
   transition: 0.5s ease all;
+  background: yellow;
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__figureText {
   width: 100%;
@@ -1136,10 +1135,13 @@
   position: relative;
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__figureText .figure {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background: white;
+  background: yellow;
+  padding: 30px;
+  font-size: 20px;
   overflow: hidden;
   position: relative;
   z-index: 100;
@@ -1154,15 +1156,6 @@
   border-radius: 0px 20px 20px 0px;
   border: 4px solid #10acb7;
   line-height: 25px;
-}
-.bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__text {
-  width: 60%;
-  padding: 2px;
-  position: absolute;
-  right: 10px;
-  bottom: 30px;
-  color: white;
-  font-size: 14px;
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque:hover {
   transform: scale(1.08, 1.06);

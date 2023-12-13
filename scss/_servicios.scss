@@ -134,7 +134,7 @@
             align-items: flex-start;
             .servicios__bloque_subBloque{
                 width: 360px;
-                height: 210px;
+                height: 350px;
                 padding: 20px;   
                 margin: 25px 0px;
                 border-radius: 10px;
@@ -142,6 +142,8 @@
                 background: $color-negro;
                 box-shadow: 0px 0px 15px grey;
                 transition: 0.5s ease all;
+                background: yellow;
+
                 .subBloque__figureText{
                     width: 100%;
                     display: flex;
@@ -150,10 +152,13 @@
                     align-items: center;
                     position: relative;
                     .figure{
-                        width: 100px;
-                        height: 100px;
+                        width: 80px;
+                        height: 80px;
                         border-radius: 50%;
                         background: $color_blanco;
+                        background: yellow;
+                        padding: 30px;
+                        font-size: 20px;
                         overflow:hidden;
                         position: relative;
                         z-index: 100;
@@ -170,16 +175,7 @@
                         line-height: 25px;
                     }
                 }
-                .subBloque__text{
-                    width: 60%;
-                    padding: 2px;
-                    position: absolute;
-                    right: 10px;
-                    bottom: 30px;
-                    color: $color_blanco;   
-                    font-size: 14px;
-                }
-
+            
             }
 
             .servicios__bloque_subBloque:hover{
