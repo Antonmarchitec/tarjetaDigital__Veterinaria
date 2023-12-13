@@ -2805,6 +2805,77 @@
     visibility: visible;
   }
 }
+.bloqueMain {
+  width: 100%;
+  padding: 10px 0px;
+}
+.bloqueMain .bloquePrincipal {
+  width: 600px;
+  height: 280px;
+  padding: 40px;
+  background: rgba(255, 106, 106, 0.804);
+  box-shadow: 0px 0px 10px red;
+  position: relative;
+  transform: skew(-5deg);
+  margin-top: 100px;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+.bloqueMain .bloquePrincipal .bloquePrincipal__title {
+  font-size: 40px;
+  color: white;
+}
+.bloqueMain .bloquePrincipal .bloquePrincipal__descripcion {
+  color: white;
+}
+.bloqueMain .bloquePrincipal .bloquePrincipal__imagen {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -50px;
+  left: -50px;
+}
+.bloqueMain .bloquePrincipal .bloquePrincipal__imagenPie {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-bottom: 0;
+  right: 0;
+}
+.bloqueMain .bloquePrincipal2 {
+  width: 600px;
+  height: 280px;
+  padding: 40px;
+  background: rgba(52, 106, 255, 0.716);
+  box-shadow: 0px 0px 10px rgb(6, 26, 248);
+  position: relative;
+  transform: skew(-5deg);
+  margin-top: 100px;
+  margin-left: 500px;
+  border-radius: 20px;
+}
+.bloqueMain .bloquePrincipal2 .bloquePrincipal__title2 {
+  font-size: 40px;
+  color: white;
+}
+.bloqueMain .bloquePrincipal2 .bloquePrincipal__descripcion2 {
+  color: white;
+}
+.bloqueMain .bloquePrincipal2 .bloquePrincipal__imagen2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -50px;
+  left: -50px;
+}
+.bloqueMain .bloquePrincipal2 .bloquePrincipal__imagenPie2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-bottom: 0;
+  right: 0;
+}
+
 @font-face {
   src: url(../fonts/CapricaSansPersonalUse.ttf);
   font-family: "Caprica Sans";
