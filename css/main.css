@@ -678,9 +678,9 @@
   }
   .continer__main .main__base .container .containerBase__block .baseBlock .container__block .base__icon {
     background: #191f2d;
-    padding: 2px;
+    padding: 6px;
     border-radius: 5px;
-    border: 6px solid #10acb7;
+    border: 4px solid #10acb7;
     transform: rotate(45deg);
     box-shadow: -2.5px 2.5px 2px #58bec3;
     transition: 0.3s all;
@@ -688,8 +688,8 @@
     background: white;
   }
   .continer__main .main__base .container .containerBase__block .baseBlock .container__block .base__icon .block__icon {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     overflow: hidden;
     transform: rotate(-45deg);
     transition-duration: 0.3s;
@@ -900,9 +900,9 @@
   }
   .continer__main .main__base .container .containerBase__block .baseBlock .container__block .base__icon {
     background: #191f2d;
-    padding: 2px;
+    padding: 6px;
     border-radius: 5px;
-    border: 6px solid #10acb7;
+    border: 4px solid #10acb7;
     transform: rotate(45deg);
     box-shadow: -2.5px 2.5px 2px #58bec3;
     transition: 0.3s all;
@@ -910,8 +910,8 @@
     background: white;
   }
   .continer__main .main__base .container .containerBase__block .baseBlock .container__block .base__icon .block__icon {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     overflow: hidden;
     transform: rotate(-45deg);
     transition-duration: 0.3s;
