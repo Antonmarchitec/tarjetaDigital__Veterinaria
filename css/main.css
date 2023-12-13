@@ -1072,7 +1072,7 @@
 .bloque__main .banner {
   margin: 80px 0px;
   width: 100%;
-  padding: 50px 20px;
+  padding-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1102,7 +1102,7 @@
   color: white;
 }
 .bloque__main .servicios {
-  margin: auto;
+  margin-top: 20px;
   width: 100%;
   padding: 10px 0px;
 }
@@ -1117,7 +1117,7 @@
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque {
   width: 360px;
-  padding: 30px 20px;
+  padding: 40px 20px;
   margin: 25px 0px;
   border-radius: 10px;
   box-shadow: 0px 0px 15px grey;
@@ -1152,17 +1152,37 @@
   line-height: 25px;
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__imagen {
-  width: 90%;
+  width: 100%;
   height: 200px;
   margin: 30px auto;
+  border-radius: 5px;
+  overflow: hidden;
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__parrafo {
   color: rgb(37, 37, 37);
   font-weight: 300;
 }
-.bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque:hover {
-  transform: scale(1.08, 1.06);
+.bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .linkBoton {
+  text-decoration: none;
+}
+.bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .linkBoton .subBloque__boton {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: rgb(32, 32, 32);
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  transition: 0.1s;
+}
+.bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .linkBoton .subBloque__boton:hover {
   cursor: pointer;
+  box-shadow: 0px 2px 0px rgb(71, 71, 71);
+  background: #10acb7;
+  color: rgb(32, 32, 32);
+}
+.bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque:hover {
+  transform: scale(1.02, 1.02);
 }
 .bloque__main .certificado {
   margin-top: 50px;
