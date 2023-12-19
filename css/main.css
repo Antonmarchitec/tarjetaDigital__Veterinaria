@@ -2813,67 +2813,137 @@
   width: 600px;
   height: 280px;
   padding: 40px;
-  background: rgba(255, 106, 106, 0.804);
-  box-shadow: 0px 0px 10px red;
+  background: rgba(255, 50, 50, 0.774);
+  box-shadow: 0px 5px 5px rgb(0, 0, 0);
   position: relative;
   transform: skew(-5deg);
   margin-top: 100px;
-  margin-left: 100px;
+  margin-left: 200px;
   border-radius: 20px;
 }
 .bloqueMain .bloquePrincipal .bloquePrincipal__title {
   font-size: 40px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .bloqueMain .bloquePrincipal .bloquePrincipal__descripcion {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .bloqueMain .bloquePrincipal .bloquePrincipal__imagen {
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
   position: absolute;
-  top: -50px;
-  left: -50px;
+  top: -150px;
+  left: -180px;
 }
 .bloqueMain .bloquePrincipal .bloquePrincipal__imagenPie {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   position: absolute;
   border-bottom: 0;
-  right: 0;
+  right: 10px;
+  bottom: 10px;
 }
 .bloqueMain .bloquePrincipal2 {
   width: 600px;
   height: 280px;
   padding: 40px;
-  background: rgba(52, 106, 255, 0.716);
-  box-shadow: 0px 0px 10px rgb(6, 26, 248);
+  background: rgba(236, 255, 159, 0.716);
+  box-shadow: 0px 5px 5px rgb(0, 0, 0);
   position: relative;
   transform: skew(-5deg);
-  margin-top: 100px;
+  margin-top: 150px;
   margin-left: 500px;
   border-radius: 20px;
 }
 .bloqueMain .bloquePrincipal2 .bloquePrincipal__title2 {
   font-size: 40px;
-  color: white;
+  color: rgb(255, 39, 39);
 }
 .bloqueMain .bloquePrincipal2 .bloquePrincipal__descripcion2 {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .bloqueMain .bloquePrincipal2 .bloquePrincipal__imagen2 {
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
   position: absolute;
   top: -50px;
-  left: -50px;
+  left: -330px;
 }
 .bloqueMain .bloquePrincipal2 .bloquePrincipal__imagenPie2 {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   position: absolute;
   border-bottom: 0;
-  right: 0;
+  right: 10px;
+  bottom: 10px;
+}
+.bloqueMain .bloquePrincipal3 {
+  width: 600px;
+  height: 280px;
+  padding: 40px;
+  background: rgba(16, 107, 127, 0.716);
+  box-shadow: 0px 5px 5px rgb(0, 0, 0);
+  position: relative;
+  transform: skew(-5deg);
+  margin-top: 100px;
+  margin-left: 400px;
+  border-radius: 20px;
+}
+.bloqueMain .bloquePrincipal3 .bloquePrincipal__title3 {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+.bloqueMain .bloquePrincipal3 .bloquePrincipal__descripcion3 {
+  color: rgb(255, 255, 255);
+}
+.bloqueMain .bloquePrincipal3 .bloquePrincipal__imagen3 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0px;
+  left: -250px;
+}
+.bloqueMain .bloquePrincipal3 .bloquePrincipal__imagenPie3 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  border-bottom: 0;
+  right: 10px;
+  bottom: 10px;
+}
+.bloqueMain .bloquePrincipal4 {
+  width: 600px;
+  height: 280px;
+  padding: 40px;
+  background: rgba(0, 14, 53, 0.716);
+  box-shadow: 0px 5px 5px rgb(0, 0, 0);
+  position: relative;
+  transform: skew(-5deg);
+  margin-top: 150px;
+  margin-left: 320px;
+  border-radius: 20px;
+}
+.bloqueMain .bloquePrincipal4 .bloquePrincipal__title4 {
+  font-size: 40px;
+  color: white;
+}
+.bloqueMain .bloquePrincipal4 .bloquePrincipal__descripcion4 {
+  color: white;
+}
+.bloqueMain .bloquePrincipal4 .bloquePrincipal__imagen4 {
+  width: 300px;
+  height: 380px;
+  position: absolute;
+  top: -50px;
+  left: -230px;
+}
+.bloqueMain .bloquePrincipal4 .bloquePrincipal__imagenPie4 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  border-bottom: 0;
+  right: 10px;
+  bottom: 10px;
 }
 
 @font-face {
