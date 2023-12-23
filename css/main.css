@@ -2956,6 +2956,22 @@
   opacity: 0.8;
 }
 
+.cont__bloque {
+  width: 100%;
+  padding: 10px 0px;
+  background: yellow;
+}
+.cont__bloque .cont__bloque__A {
+  width: 100%;
+  padding: 10px 0px;
+  background: yellow;
+}
+.cont__bloque .cont__bloque__B {
+  width: 100%;
+  padding: 10px 0px;
+  background: rgb(18, 201, 76);
+}
+
 @font-face {
   src: url(../fonts/CapricaSansPersonalUse.ttf);
   font-family: "Caprica Sans";
