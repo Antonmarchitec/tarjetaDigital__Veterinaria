@@ -2864,11 +2864,11 @@
   color: rgb(0, 0, 0);
 }
 .bloqueMain .bloquePrincipal2 .bloquePrincipal__imagen2 {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   position: absolute;
   top: -50px;
-  left: -330px;
+  left: -340px;
 }
 .bloqueMain .bloquePrincipal2 .bloquePrincipal__imagenPie2 {
   width: 80px;
