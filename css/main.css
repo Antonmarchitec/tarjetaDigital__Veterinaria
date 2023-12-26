@@ -1278,7 +1278,7 @@
   font-weight: 100;
 }
 .bloque__main .footer__textoo .span {
-  color: rgba(16, 174, 185, 0.6156862745);
+  color: rgba(18, 170, 181, 0.8784313725);
   font-weight: 100;
 }
 .bloque__main .PERRITO {
@@ -1631,7 +1631,7 @@
     font-weight: 100;
   }
   .bloque__main .footer__textoo .span {
-    color: rgba(16, 174, 185, 0.6156862745);
+    color: rgba(18, 170, 181, 0.8784313725);
     font-weight: 100;
   }
   .bloque__main .PERRITO {
@@ -1991,7 +1991,7 @@
     font-weight: 100;
   }
   .bloque__main .footer__textoo .span {
-    color: rgba(16, 174, 185, 0.6156862745);
+    color: rgba(18, 170, 181, 0.8784313725);
     font-weight: 100;
   }
   .bloque__main .PERRITO {
@@ -2354,7 +2354,7 @@
     font-weight: 100;
   }
   .bloque__main .footer__textoo .span {
-    color: rgba(16, 174, 185, 0.6156862745);
+    color: rgba(18, 170, 181, 0.8784313725);
     font-weight: 100;
   }
   .bloque__main .PERRITO {
@@ -2718,7 +2718,7 @@
     font-weight: 100;
   }
   .bloque__main .footer__textoo .span {
-    color: rgba(16, 174, 185, 0.6156862745);
+    color: rgba(18, 170, 181, 0.8784313725);
     font-weight: 100;
   }
   .bloque__main .PERRITO {
@@ -2970,7 +2970,6 @@ cont__bloque__A_cuadro
   width: 100%;
   padding: 10px 0px;
   margin-bottom: 50px;
-  background: yellow;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -2980,36 +2979,63 @@ cont__bloque__A_cuadro
   width: 100%;
   padding: 10px 0px;
   margin: 5px;
-  background: rgb(33, 172, 20);
 }
 .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .cont__bloque__A_cuadro__title {
   text-align: center;
   font-size: 40px;
+  color: rgb(32, 32, 32);
 }
 .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .subcuadro {
   width: 100%;
   padding: 10px 0px;
-  background: grey;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
 }
 .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .subcuadro .subcuadro__interno {
-  width: 50%;
-  padding: 10px 0px;
-  background: rgb(43, 43, 43);
+  margin-bottom: 30px;
+  width: 200px;
+  padding: 30px 10px;
+  background: rgb(32, 32, 32);
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px black;
 }
 .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .subcuadro .subcuadro__interno .subcuadro__interno__img {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .subcuadro .subcuadro__interno .subcuadro__interno__img .iconJeringa1 {
+  font-size: 60px;
+  color: rgb(255, 43, 43);
+}
+.cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .subcuadro .subcuadro__interno .subcuadro__interno__img .iconJeringa2 {
+  font-size: 60px;
+  color: rgb(218, 255, 149);
+}
+.cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .subcuadro .subcuadro__interno .subcuadro__interno__img .iconJeringa3 {
+  font-size: 60px;
+  color: rgb(102, 176, 255);
+}
+.cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .subcuadro .subcuadro__interno .subcuadro__interno__img .iconJeringa4 {
+  font-size: 60px;
+  color: rgb(255, 108, 194);
 }
 .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .subcuadro .subcuadro__interno .subcuadro__interno__text {
-  margin-top: 20px;
   text-align: center;
   color: white;
   font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .subcuadro .subcuadro__interno:hover {
+  background: rgba(18, 170, 181, 0.8784313725);
+  cursor: progress;
 }
 
 @font-face {
