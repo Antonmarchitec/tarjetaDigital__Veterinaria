@@ -3081,17 +3081,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /*
-  .iconJeringa3{
-      font-size:60px;
-      color: rgb(102, 176, 255);
-  }
-
-  .iconJeringa4{
-      font-size:60px;
-      color: rgb(255, 108, 194);
-  }
-  */
 }
 .cont__bloque .cont__bloque__B .cont__bloque__B_cuadro .subcuadro .subcuadro__interno .subcuadro__interno__img .iconJeringa1 {
   font-size: 60px;
@@ -3100,6 +3089,14 @@
 .cont__bloque .cont__bloque__B .cont__bloque__B_cuadro .subcuadro .subcuadro__interno .subcuadro__interno__img .iconJeringa2 {
   font-size: 60px;
   color: rgb(255, 101, 227);
+}
+.cont__bloque .cont__bloque__B .cont__bloque__B_cuadro .subcuadro .subcuadro__interno .subcuadro__interno__img .iconJeringa3 {
+  font-size: 60px;
+  color: rgb(102, 176, 255);
+}
+.cont__bloque .cont__bloque__B .cont__bloque__B_cuadro .subcuadro .subcuadro__interno .subcuadro__interno__img .iconJeringa4 {
+  font-size: 60px;
+  color: rgb(255, 108, 194);
 }
 .cont__bloque .cont__bloque__B .cont__bloque__B_cuadro .subcuadro .subcuadro__interno .subcuadro__interno__text {
   text-align: center;
