@@ -1,11 +1,6 @@
 @import "variables";
 
 
-/*
-cont__bloque
-cont__bloque__A
-cont__bloque__A_cuadro
-*/
 
 .cont__bloque{
     width: 75%;
@@ -27,14 +22,17 @@ cont__bloque__A_cuadro
 
             .cont__bloque__A_cuadro__title{
                 text-align: center;
-                font-size: 40px;
+                font-size: 50px;
                 color:$color-negro;
+                letter-spacing: 2px;
+                
             }
             
             .subcuadro{
                 width: 100%;
                 padding: 10px 0px;
                 display: flex;
+                margin-top: 30px;
                 flex-wrap: wrap;
                 flex-direction: row;
                 justify-content: space-around;
@@ -73,6 +71,92 @@ cont__bloque__A_cuadro
                             font-size:60px;
                             color: rgb(255, 108, 194);
                         }
+                    }
+
+                    .subcuadro__interno__text{
+                        text-align: center;
+                        color: white;
+                        font-size: 18px;
+                        font-weight: 300;
+                        letter-spacing: 2px;
+                    }
+                }
+
+                .subcuadro__interno:hover{
+                    cursor:pointer;
+                    transform: scale(1.1,1.1);
+                }
+               
+            }
+        }    
+    }
+
+
+    .cont__bloque__B{
+        width: 100%;
+        padding: 10px 0px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        .cont__bloque__B_cuadro{
+            width: 100%;
+            padding: 10px 0px;
+            margin: 5px;
+
+            .cont__bloque__B_cuadro__title{
+                text-align: center;
+                font-size: 50px;
+                color:$color-negro;
+                letter-spacing: 5px;
+            }
+            
+            .subcuadro{
+                width: 100%;
+                padding: 10px 0px;
+                margin-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items:  center;
+                .subcuadro__interno{
+                    margin-bottom: 30px;
+                    width: 200px;
+                    padding: 30px 10px;
+                    background: $color-negro;
+                    border-radius: 10px;
+                    box-shadow: 0px 0px 5px black;
+                    transition: 0.2s ease;
+                    .subcuadro__interno__img{
+                        width: 80px;
+                        height: 80px;
+                        margin: auto;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .iconJeringa1{
+                            font-size:60px;
+                            color: rgb(41, 245, 72);
+                        }
+
+                        .iconJeringa2{
+                            font-size:60px;
+                            color: rgb(255, 101, 227);
+                        }
+
+                        /*
+                        .iconJeringa3{
+                            font-size:60px;
+                            color: rgb(102, 176, 255);
+                        }
+
+                        .iconJeringa4{
+                            font-size:60px;
+                            color: rgb(255, 108, 194);
+                        }
+                        */
                     }
 
                     .subcuadro__interno__text{
