@@ -46,6 +46,7 @@ cont__bloque__A_cuadro
                     background: $color-negro;
                     border-radius: 10px;
                     box-shadow: 0px 0px 5px black;
+                    transition: 0.2s ease;
                     .subcuadro__interno__img{
                         width: 80px;
                         height: 80px;
@@ -84,8 +85,8 @@ cont__bloque__A_cuadro
                 }
 
                 .subcuadro__interno:hover{
-                    background: $color-verdea;
-                    cursor:progress;
+                    cursor:pointer;
+                    transform: scale(1.1,1.1);
                 }
                
             }

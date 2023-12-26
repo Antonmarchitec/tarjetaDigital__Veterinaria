@@ -3001,6 +3001,7 @@ cont__bloque__A_cuadro
   background: rgb(32, 32, 32);
   border-radius: 10px;
   box-shadow: 0px 0px 5px black;
+  transition: 0.2s ease;
 }
 .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .subcuadro .subcuadro__interno .subcuadro__interno__img {
   width: 80px;
@@ -3034,8 +3035,8 @@ cont__bloque__A_cuadro
   letter-spacing: 2px;
 }
 .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .subcuadro .subcuadro__interno:hover {
-  background: rgba(18, 170, 181, 0.8784313725);
-  cursor: progress;
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
 }
 
 @font-face {
