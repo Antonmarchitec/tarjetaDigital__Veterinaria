@@ -153,13 +153,13 @@
                         padding: 15px;
                         border-radius: 50%;
                         background: $color-verde-oscuro;
+                        border: 4px solid $color-verde-oscuro;
                         font-size: 20px;
                         position: relative;
                         z-index: 100;
-                        border: 4px solid $color-verde-oscuro;
                     }
                     .legenda{
-                        width: 200px;
+                        width: 100%;
                         padding: 8px 20px;
                         margin-left: -15px;
                         background: rgb(255, 255, 255);
@@ -173,8 +173,10 @@
                     width: 100%;
                     height: 200px;
                     margin: 30px auto;
-                    border-radius:5px;
+                    border-radius:10px;
                     overflow: hidden;
+                    background: red;
+                    border: 2px solid $color-verdea
                 }
 
                 .subBloque__parrafo{
@@ -214,8 +216,11 @@
 
     /**********************************/
     .certificado{
-        margin-top: 50px;
-        width: 100%;
+        margin: 50px auto;
+        width: 65%;
+        border-radius: 50px;
+        border: 5px solid $color-negro;
+        box-shadow: 0px 0px 10px black;
         background:white;
         padding: 100px 0px;
         position: relative;
@@ -240,14 +245,12 @@
         .certificado__bloque{
             width: 100%;
             padding: 100px 0px;
-            background: rgb(233, 233, 233);
             display: flex;
             justify-content: center;
             align-items: flex-start;
             .certificado__bloque__img{
                 width: 250px;
                 height: 250px;
-                background: grey;
                 border: 2px solid black;
                 border-radius: 10px 10px;
                 overflow: hidden;
