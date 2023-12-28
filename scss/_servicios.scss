@@ -387,14 +387,12 @@
     
 
     .CONTACTAME{
-        width: 240px;
-        background: rgba(255, 255, 255, 0.886);
-        border: 2px solid $color-verde-oscuro;
-        border-radius: 10px;
+        width:auto;
         position: fixed;
         bottom: 40px;
         right: 50px;
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         z-index: 100;
@@ -402,14 +400,15 @@
         transition: 0.3s;
         visibility: hidden;
         .contact__logo{
-            width: 70px;
-            height: 70px;
+            width: 90px;
+            height: 90px;
             animation-name: moverWats;
             animation-duration: 1s;
             animation-timing-function: ease;
             animation-fill-mode: forwards;
             animation-iteration-count: infinite;
             animation-direction: alternate;
+            
         }
         @keyframes moverWats {
             from{
@@ -420,7 +419,12 @@
         }
         .contact__legend{
             font-size: 18px;
-            color: black;
+            color: white;
+            background: rgb(6, 173, 6);
+            padding: 2px 15px;
+            margin-left: -20px;
+            box-shadow: 0px 0px 4px rgb(0, 0, 0);
+            border-radius: 0px 10px 10px 0px;
         }
     }
     .iconTopJS{
