@@ -1186,14 +1186,62 @@
   transform: scale(1.02, 1.02);
 }
 .bloque__main .certificado {
-  margin: 50px auto;
-  width: 65%;
-  border-radius: 50px;
-  border: 5px solid rgb(32, 32, 32);
-  box-shadow: 0px 0px 10px black;
-  background: white;
+  margin: 100px auto;
+  width: 80%;
   padding: 100px 0px;
   position: relative;
+  /*
+  .certificado_img{
+      margin: 30px auto;
+      width: 300px;
+      height: 300px;
+  }
+  .certificado__bloque{
+      width: 100%;
+      padding: 100px 0px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      .certificado__bloque__img{
+          width: 250px;
+          height: 250px;
+          border: 2px solid black;
+          border-radius: 10px 10px;
+          overflow: hidden;
+          box-shadow: 0px 0px 10px black;
+
+      }   
+      .certificado__bloque__text{
+          padding: 10px 20px;
+          .text__nombre{
+              color: rgb(0, 0, 0);
+              font-weight: 700;
+              font-size: 30px;
+          }
+          .text__nom{
+              color: rgb(0, 0, 0);
+              font-weight: 700;
+              .texto{
+                  color: rgb(0, 0, 0);
+                  font-weight: 300;
+
+              }
+          }
+
+      }
+
+
+  }
+
+  .medalla{
+      width: 80px;
+      height: 100px;
+      position: absolute;
+      top: 680px;
+      left:300px;
+  }
+
+  */
 }
 .bloque__main .certificado .certificado_title {
   margin: auto;
@@ -1207,48 +1255,49 @@
   text-align: center;
   color: rgb(32, 32, 32);
 }
-.bloque__main .certificado .certificado_img {
-  margin: 30px auto;
-  width: 300px;
-  height: 300px;
-}
 .bloque__main .certificado .certificado__bloque {
   width: 100%;
-  padding: 100px 0px;
+  margin-top: 50px;
+  padding: 10px 0px;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: flex-start;
+  position: relative;
 }
-.bloque__main .certificado .certificado__bloque .certificado__bloque__img {
+.bloque__main .certificado .certificado__bloque .certificado__bloque__foto {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.bloque__main .certificado .certificado__bloque .certificado__bloque_section {
+  width: 450px;
+  padding: 50px 30px;
+  background: rgb(198, 240, 252);
+  position: relative;
+  border-radius: 20px;
+}
+.bloque__main .certificado .certificado__bloque .certificado__bloque_section .certificado_img {
   width: 250px;
   height: 250px;
-  border: 2px solid black;
-  border-radius: 10px 10px;
-  overflow: hidden;
-  box-shadow: 0px 0px 10px black;
+  margin: auto;
 }
-.bloque__main .certificado .certificado__bloque .certificado__bloque__text {
+.bloque__main .certificado .certificado__bloque .certificado__bloque_section .certificado__bloque__text {
   padding: 10px 20px;
 }
-.bloque__main .certificado .certificado__bloque .certificado__bloque__text .text__nombre {
+.bloque__main .certificado .certificado__bloque .certificado__bloque_section .certificado__bloque__text .text__nombre {
   color: rgb(0, 0, 0);
   font-weight: 700;
   font-size: 30px;
 }
-.bloque__main .certificado .certificado__bloque .certificado__bloque__text .text__nom {
+.bloque__main .certificado .certificado__bloque .certificado__bloque_section .certificado__bloque__text .text__nom {
   color: rgb(0, 0, 0);
   font-weight: 700;
 }
-.bloque__main .certificado .certificado__bloque .certificado__bloque__text .text__nom .texto {
+.bloque__main .certificado .certificado__bloque .certificado__bloque_section .certificado__bloque__text .text__nom .texto {
   color: rgb(0, 0, 0);
   font-weight: 300;
-}
-.bloque__main .certificado .medalla {
-  width: 80px;
-  height: 100px;
-  position: absolute;
-  top: 680px;
-  left: 300px;
 }
 .bloque__main .footer {
   width: 100%;
