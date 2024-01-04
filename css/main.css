@@ -1006,13 +1006,7 @@
   /********************************/
   /********************************/
   /**********************************/
-  /*******************************/
-  /*
-      footer
-  footer__banner__text
-  footer__banner__img
-  CASITA
-      */
+  /********************************/
   /*******************************/
   /*FLOTANTES*/
   /*FLIXIER PROGRAMA*/
@@ -1445,7 +1439,7 @@
     margin: auto;
     position: relative;
     overflow: hidden;
-    background: orange;
+    background: rgba(255, 166, 0, 0.19);
     /********************************/
     /********************************/
     /**********************************/
@@ -1514,13 +1508,14 @@
     width: 100%;
     padding-top: 50px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
   }
   .bloque__main .banner .banner__bloqueLeft {
-    width: 600px;
-    padding: 100px 0px;
+    width: 90%;
+    margin: auto;
+    padding: initial;
     text-align: center;
   }
   .bloque__main .banner .banner__bloqueLeft .banner__title {
@@ -1532,17 +1527,18 @@
   }
   .bloque__main .banner .banner__bloqueLeft .banner__subTitle {
     color: #10acb7;
-    font-size: 40px;
+    font-size: 35px;
     letter-spacing: 11px;
   }
   .bloque__main .banner .banner__bloqueRight {
-    width: 500px;
-    height: 650px;
+    width: 90%;
+    height: initial;
+    margin: 50px auto;
     padding: 10px;
     color: white;
   }
   .bloque__main .servicios {
-    margin-top: 20px;
+    margin: auto;
     width: 100%;
     padding: 10px 0px;
   }
@@ -1626,69 +1622,17 @@
     transform: scale(1.02, 1.02);
   }
   .bloque__main .certificado {
-    margin: 100px auto;
-    width: 80%;
-    padding: 100px 0px;
+    margin: 80px auto;
+    width: 100%;
+    padding: 30px 0px;
     position: relative;
-    /*
-    .certificado_img{
-        margin: 30px auto;
-        width: 300px;
-        height: 300px;
-    }
-    .certificado__bloque{
-        width: 100%;
-        padding: 100px 0px;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        .certificado__bloque__img{
-            width: 250px;
-            height: 250px;
-            border: 2px solid black;
-            border-radius: 10px 10px;
-            overflow: hidden;
-            box-shadow: 0px 0px 10px black;
-
-        }   
-        .certificado__bloque__text{
-            padding: 10px 20px;
-            .text__nombre{
-                color: rgb(0, 0, 0);
-                font-weight: 700;
-                font-size: 30px;
-            }
-            .text__nom{
-                color: rgb(0, 0, 0);
-                font-weight: 700;
-                .texto{
-                    color: rgb(0, 0, 0);
-                    font-weight: 300;
-
-                }
-            }
-
-        }
-
-
-    }
-
-    .medalla{
-        width: 80px;
-        height: 100px;
-        position: absolute;
-        top: 680px;
-        left:300px;
-    }
-
-    */
   }
   .bloque__main .certificado .certificado_title {
     margin: auto;
     width: 90%;
     text-align: center;
-    font-size: 70px;
-    line-height: 70px;
+    font-size: 60px;
+    line-height: 60px;
     color: #10acb7;
   }
   .bloque__main .certificado .certificado_subtitle {
@@ -1700,22 +1644,27 @@
     margin-top: 50px;
     padding: 10px 0px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     position: relative;
   }
   .bloque__main .certificado .certificado__bloque .certificado__bloque__foto {
-    width: 500px;
-    height: 500px;
+    width: calc(40% - 50px);
+    height: calc(40% - 50px);
     border-radius: 50%;
     overflow: hidden;
   }
   .bloque__main .certificado .certificado__bloque .certificado__bloque_section {
-    width: 450px;
-    padding: 50px 30px;
+    width: 75%;
+    margin-top: 30px;
+    padding: 40px 30px;
     background: rgb(198, 240, 252);
-    position: relative;
+    position: initial;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
     border-radius: 20px;
   }
   .bloque__main .certificado .certificado__bloque .certificado__bloque_section .certificado_img {
@@ -1730,6 +1679,7 @@
     color: rgb(0, 0, 0);
     font-weight: 700;
     font-size: 30px;
+    line-height: 30px;
   }
   .bloque__main .certificado .certificado__bloque .certificado__bloque_section .certificado__bloque__text .text__nom {
     color: rgb(0, 0, 0);
@@ -1741,7 +1691,8 @@
   }
   .bloque__main .footer {
     width: 100%;
-    padding: 100px 20px;
+    padding: 10px 20px;
+    background: teal;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
