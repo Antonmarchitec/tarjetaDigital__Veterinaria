@@ -485,7 +485,7 @@
         opacity: 1;
         visibility: visible;
     }
-    /*FLIXIER PROGRAMA*/
+   
     
 
 }
@@ -853,21 +853,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
 /****************************************************/
 @media (min-width:641px)  and (max-width:770px){
     .bloque__main{
         width: 100%;
         max-width: 1240px;
-        padding: 0px;
+        padding: 0px 0px;
         margin: auto;
         position: relative;
         overflow: hidden;
@@ -945,115 +936,137 @@
     
         /********************************/
         .banner{
-            margin: 80px 0px;
+            margin:initial;
             width: 100%;
-            padding: 10px 0px;
+            padding-top: 120px;
             display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;    
-
+            flex-direction:column;
+            justify-content: center ;
+            align-items: flex-start;    
             .banner__bloqueLeft{    
-                width:100%;
-                padding: 40px 0px;
+                width:90%;
+                margin: auto;
+                padding: initial;
                 text-align: center;
                 .banner__title{
-                    width: 100%;
                     margin-top: 50px;
                     color: $color-negro;
-                    font-size:90px;
+                    font-size:100px;
                     line-height: 90px;
                     letter-spacing: -5px;
-    
                     
                 }
                 .banner__subTitle{
-                    width: 100%;
                     color: $color-verde-oscuro;
-                    font-size: 25px;
+                    font-size: 30px;
                     letter-spacing: 11px;
                 }
             }
     
             .banner__bloqueRight{
-                width: 100%;
-                height: auto;
+                width:62%;
+                height: initial;
+                margin: 50px auto;
                 padding: 10px;
                 color: white;   
+
             }
           
         }
-    
-    
+
         /********************************/
         .servicios{
             margin:auto;
             width: 100%;
-            padding: 5px 0px;
+            padding: 10px 0px;
             .servicios__bloque{
                 width: 100%;
                 padding: 10px 0px;
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
-                justify-content: space-around;
+                justify-content: space-evenly;
                 align-items: flex-start;
                 .servicios__bloque_subBloque{
-                    width:calc(50% - 10px);
-                    height: initial;
-                    padding: 20px;   
+                    width: 300px;
+                    padding: 40px 20px;   
                     margin: 25px 0px;
                     border-radius: 10px;
-                    position: relative;
-                    background: $color-negro;
                     box-shadow: 0px 0px 15px grey;
                     transition: 0.5s ease all;
+                    background:white;
+    
                     .subBloque__figureText{
                         width: 100%;
                         display: flex;
-                        flex-direction: column;
-                        justify-content:flex-start  ;
+                        flex-direction: row;
+                        justify-content:flex-start;
                         align-items: center;
-                        position: relative;
                         .figure{
-                            width: 100px;
-                            height: 100px;
+                            width: 80px;
+                            height: 80px;
+                            padding: 10px;
                             border-radius: 50%;
-                            background: $color_blanco;
-                            overflow:hidden;
+                            background: $color-verde-oscuro;
+                            border: 4px solid $color-verde-oscuro;
+                            font-size: 20px;
                             position: relative;
                             z-index: 100;
-                            border: 4px solid $color-verde-oscuro;
-                            box-shadow: 5px 0px 10px $color-verde-oscuro;
                         }
                         .legenda{
-                            width: 90%;
+                            width: 100%;
                             padding: 8px 20px;
-                            margin: 10px    auto;
-                            text-align: center;
+                            margin-left: -25px;
                             background: rgb(255, 255, 255);
-                            border-radius: 20px 20px;
+                            border-radius: 0px 20px 20px 0px;
                             border: 4px solid $color-verde-oscuro;
-                            line-height: 25px;
+                            line-height: 20px;
+                            font-size: 20px;
+                            text-align: end;
                         }
                     }
-
-                    .subBloque__text{
+    
+                    .subBloque__imagen{
                         width: 100%;
-                        padding: 2px;
-                        text-align: center;
-                        position: relative;
-                        right: initial;
-                        bottom:initial;
-                        color: $color_blanco;   
-                        font-size: 14px;
+                        height: 180px;
+                        margin: 20px auto;
+                        border-radius:10px;
+                        overflow: hidden;
+                        background: red;
+                        border: 2px solid $color-verdea
                     }
     
+                    .subBloque__parrafo{
+                        color: rgb(37, 37, 37);
+                        font-weight: 300;
+                        height: 130px;
+                    }
+    
+                    .linkBoton{
+                        text-decoration: none;
+                        .subBloque__boton{
+                            width: 100%;
+                            margin-top: 15px;
+                            padding: 10px 20px;
+                            background: $color-negro;
+                            text-align: center;
+                            color: white;
+                            border-radius: 10px;
+                            transition: 0.1s;
+                        }
+                        .subBloque__boton:hover{
+                            cursor: pointer;
+                            box-shadow: 0px 2px 0px rgb(71, 71, 71);
+                            background: $color-verde-oscuro;
+                        }
+                    }
+                    
+                
                 }
     
                 .servicios__bloque_subBloque:hover{
-                    transform: scale(1.08,1.06);
-                    cursor: pointer;
+                    transform: scale(1.02,1.02);
+                    
                 }
             
             }
@@ -1061,14 +1074,13 @@
     
         /**********************************/
         .certificado{
-            margin-top: 50px;
+            margin: 80px auto;
             width: 100%;
-            background:white;
-            padding: 0px 0px;
+            padding: 30px 0px;
             position: relative;
             .certificado_title{
                 margin: auto;
-                width: 100%;
+                width: 80%;
                 text-align: center;
                 font-size: 50px;
                 line-height: 50px;
@@ -1076,100 +1088,108 @@
             }
             .certificado_subtitle{
                 width: 80%;
-                margin: auto;
+                margin: 10px auto;
                 text-align: center;
-                font-size: 20px;
-                color: $color-negro;  
+                color: $color-negro;
+                font-size: 20px;    
+            }
     
-            }
-            .certificado_img{
-                margin: 30px auto;
-                width: 280px;
-                height: 280px;
-            }
             .certificado__bloque{
                 width: 100%;
-                padding: 50px 0px;
-                background: rgb(233, 233, 233);
+                margin-top: 50px;
+                padding: 10px 0px;
                 display: flex;
-                justify-content: center;
-                align-items: flex-start;
-
-                .certificado__bloque__img{
-                    width: 250px;
-                    height: 250px;
-                    background: grey;
-                    border: 2px solid black;
-                    border-radius: 10px 10px;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items:center;
+                position: relative;
+                .certificado__bloque__foto{
+                    width: calc(40% - 50px);
+                    height: calc(40% - 50px);
+                    border-radius: 50%;
                     overflow: hidden;
-                    box-shadow: 0px 0px 10px black;
-                    
-                }   
-                .certificado__bloque__text{
-                    padding: 10px 20px;
-                    .text__nombre{
-                        color: rgb(0, 0, 0);
-                        font-weight: 700;
-                        font-size: 30px;
-                    }
-                    .text__nom{
-                        color: rgb(0, 0, 0);
-                        font-weight: 700;
-                        .texto{
-                            color: rgb(0, 0, 0);
-                            font-weight: 300;
-    
-                        }
-                    }
-                    
                 }
     
-                
-            }
-    
-            .medalla{
-                width: 80px;
-                height: 100px;
-                position: absolute;
-                top: 500px;
-                left:calc(50% - 300px);
+                .certificado__bloque_section{
+                    width: 70%;
+                    margin-top: 30px;
+                    padding: 30px 30px;
+                    background: rgb(198, 240, 252);
+                    position: initial;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: flex-start;
+                    border-radius: 20px;
+                    .certificado_img{
+                        width:250px;
+                        height: initial;
+                        margin: initial;
+                    } 
+                    
+                    .certificado__bloque__text{
+                        padding: 10px 20px;
+                        .text__nombre{
+                            color: rgb(0, 0, 0);
+                            font-weight: 700;
+                            font-size: 28px;
+                            line-height: 28px;
+                        }
+                        .text__nom{
+                            color: rgb(0, 0, 0);
+                            font-weight: 700;
+                            .texto{
+                                color: rgb(0, 0, 0);
+                                font-weight: 300;
+        
+                            }
+                        }
+                        
+                    }
+                }
             }
         }
     
-    
-        /*******************************/
+        /********************************/
         .footer{
             width: 100%;
-            height: 750px;
-            padding: 50px 0px;
-            //background: linear-gradient(90deg, rgba(1,12,13,1) 0%, rgba(16,172,183,1) 35%, rgba(0,90,108,1) 100%);
-            //background: linear-gradient(transparent,$color-verdea);
+            margin-top: initial;
+            padding: 10px 0px;
             display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-                .footer__banner{
-                width: 650px;
-                height: 320px;
-                padding: 20px;
-                position: relative;
-    
-                .footer__banner__text{
-                    font-size: 80px;
-                    color:$color-verde-oscuro;
-                    font-weight: 700;
-                    letter-spacing: 9px;
-                    line-height: 80px;
-                    font-family: "Caprica Sans";
-                }
-    
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            .footer__banner__text{
+                width: 400px;
+                height: 400px;
+                padding: 40px;
+                color: $color-negro;
+                font-size: 55px;
+                text-align: center;
+                font-family: "Caprica Sans";
+                background: rgba(248, 255, 51, 0.745);
             }
-    
-    
-            
+
+            .footer__banner__img{
+                width: 45%;
+                height: 350px;
+                padding: 5px;
+            }
+
+            .footer__banner__casita{
+                width: 500px;
+                height: 500px;
+                position: absolute;
+                left: 200px;
+                bottom: 150px;
+                transform: rotate(20deg);
+                opacity: 0.2;
+                z-index: -100;
+            }
         }
-    
-    
+
+
         /*******************************/
         .footer__textoo{
             background: $color-negro;
@@ -1185,521 +1205,47 @@
         }
     
     
-        /*FLOTANTES*/
-        .PERRITO{
-            width: 550px;
-            height: 350px;
-            position: absolute;
-            bottom: 150px;
-            right: 10px;
-            animation-name:moverPerro;
-            animation-duration: 5s;
-            animation-timing-function: ease-in-out;
-            animation-fill-mode: forwards;
-            animation-iteration-count: infinite;
-            animation-direction: alternate;
-        }
-        @keyframes moverPerro {
-            0%{
-                transform: scale(1,1);
-            }
-            100%{
-                transform: scale(1.05,1.05);
-    
-            }
-        }
-    
-        .HUELLA{
-            width: 800px;
-            height: 500px;
-            position: absolute;
-            top: 1000px;
-            left: 10px;
-            opacity: 0.8;
-            transform: rotate(30deg);
-            z-index: -100;
-        }
-    
-        .CASITA {
-            width: 500px;
-            height: 500px;
-            transform: rotate(10deg);
-            position: absolute; 
-            bottom: 50px;
-            left: 20px;
-            z-index: -100;
-            opacity: 0.2;
-        }
-        
-    
-        .CONTACTAME{
-            width: 240px;
-            background: rgba(255, 255, 255, 0.886);
-            border: 2px solid $color-verde-oscuro;
-            border-radius: 10px;
-            position: fixed;
-            bottom: 40px;
-            right: 50px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 100;
-            opacity: 0;
-            transition: 0.3s;
-            visibility: hidden;
-            .contact__logo{
-                width: 70px;
-                height: 70px;
-                animation-name: moverWats;
-                animation-duration: 1s;
-                animation-timing-function: ease;
-                animation-fill-mode: forwards;
-                animation-iteration-count: infinite;
-                animation-direction: alternate;
-            }
-            @keyframes moverWats {
-                from{
-                    transform: scale(1,1);
-                }to{
-                    transform: scale(1.1,1.1);
-                }
-            }
-            .contact__legend{
-                font-size: 18px;
-                color: black;
-            }
-        }
-        .iconTopJS{
-            opacity: 1;
-            visibility: visible;
-        }
-        /*FLIXIER PROGRAMA*/
-        
-    
+      
     }
 } 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /****************************************************/
 @media (min-width:481px)  and (max-width:640px){
-    .bloque__main{
-        width: 100%;
-        max-width: 1240px;
-        padding: 0px;
-        margin: auto;
-        position: relative;
-        overflow: hidden;
-
-        .menu{
-            width: 100%;
-            padding: 10px 0px;
-            background:$color-negro;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            position:fixed;
-            box-shadow: 0px 2px 10px $color-negro;
-            left: 0;
-            top: 0;
-            z-index: 200;
-            .menu__logo{
-                margin-left: 20px;
-                width: 90px;
-                height: 70px;
-            }
-    
-            .menu__nav{
-                width: 250px;
-                padding: 10px 0px;
-                margin-right: 20px;
-    
-                .menu__navUl{
-                    width: 100%;
-                    padding: 5px 0px;
-                    //background:rgb(52, 52, 52);
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-around;
-                    align-items: center;
-                    .menu__navUlLi{
-                        width: 30%;
-                        padding: 5px 0px;
-                        //background:$color-verde-oscuro;
-                        list-style: none;
-                        text-align: center;
-                       
-                        .liLink{
-                            text-decoration: none;
-                            color: $color_blanco;
-                            transition: 0.2s all;
-                            padding: 5px 0px;
-    
-                        }
-                        .liLink:hover{
-    
-                            color: $color-verde-oscuro;
-                            border-bottom: 2px solid white;
-                        }
-                    }
-    
-                }
-               
-    
-            }
-    
-        
-            .menu__btnHamburguesa{
-                margin-right: 20px;
-                width: 50px;
-                height: 50px;
-                background: black;
-                display: none;
-            }
-           
-    
-    
-        }
-    
-    
-        /********************************/
-        .banner{
-            margin: 80px 0px;
-            width: 100%;
-            padding: 10px 0px;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;    
-
-            .banner__bloqueLeft{    
-                width:100%;
-                padding: 40px 0px;
-                text-align: center;
-                .banner__title{
-                    width: 100%;
-                    margin-top: 50px;
-                    color: $color-negro;
-                    font-size:90px;
-                    line-height: 90px;
-                    letter-spacing: -5px;
-    
-                    
-                }
-                .banner__subTitle{
-                    width: 100%;
-                    color: $color-verde-oscuro;
-                    font-size: 25px;
-                    letter-spacing: 11px;
-                }
-            }
-    
-            .banner__bloqueRight{
-                width: 100%;
-                height: auto;
-                padding: 10px;
-                color: white;   
-            }
-          
-        }
-    
-    
-        /********************************/
-        .servicios{
-            margin:auto;
-            width: 100%;
-            padding: 5px 0px;
-            .servicios__bloque{
-                width: 100%;
-                padding: 10px 0px;
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                align-items: flex-start;
-                .servicios__bloque_subBloque{
-                    width:calc(50% - 10px);
-                    height: initial;
-                    padding: 20px 0px;   
-                    margin: 25px 0px;
-                    border-radius: 10px;
-                    position: relative;
-                    background: $color-negro;
-                    box-shadow: 0px 0px 15px grey;
-                    transition: 0.5s ease all;
-                    .subBloque__figureText{
-                        width: 100%;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content:flex-start  ;
-                        align-items: center;
-                        position: relative;
-                        .figure{
-                            width: 100px;
-                            height: 100px;
-                            border-radius: 50%;
-                            background: $color_blanco;
-                            overflow:hidden;
-                            position: relative;
-                            z-index: 100;
-                            border: 4px solid $color-verde-oscuro;
-                            box-shadow: 5px 0px 10px $color-verde-oscuro;
-                        }
-                        .legenda{
-                            width: 90%;
-                            padding: 8px 0px;
-                            margin: 10px auto;
-                            text-align: center;
-                            background: rgb(255, 255, 255);
-                            border-radius: 20px 20px;
-                            border: 4px solid $color-verde-oscuro;
-                            line-height: 25px;
-                            font-size: 20px;
-                        }
-                    }
-
-                    .subBloque__text{
-                        width: 90%;
-                        margin: auto;
-                        padding: 2px;
-                        text-align: center;
-                        position: relative;
-                        right: initial;
-                        bottom:initial;
-                        color: $color_blanco;   
-                        font-size: 14px;
-                    }
-    
-                }
-    
-                .servicios__bloque_subBloque:hover{
-                    transform: scale(1.08,1.06);
-                    cursor: pointer;
-                }
-            
-            }
-        }
-    
-        /**********************************/
-        .certificado{
-            margin-top: 50px;
-            width: 100%;
-            background:white;
-            padding: 0px 0px;
-            position: relative;
-            .certificado_title{
-                margin: auto;
-                width: 100%;
-                text-align: center;
-                font-size: 45px;
-                line-height: 45px;
-                color: $color-verde-oscuro;
-            }
-            .certificado_subtitle{
-                width: 80%;
-                margin: auto;
-                text-align: center;
-                font-size: 18px;
-                color: $color-negro;  
-    
-            }
-            .certificado_img{
-                margin: 30px auto;
-                width: 280px;
-                height: 280px;
-            }
-            .certificado__bloque{
-                width: 100%;
-                padding: 20px 0px;
-                background: rgb(233, 233, 233);
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-start;
-                align-items: center;
-
-                .certificado__bloque__img{
-                    width: 250px;
-                    height: 250px;
-                    background: grey;
-                    border: 2px solid black;
-                    border-radius: 10px 10px;
-                    overflow: hidden;
-                    box-shadow: 0px 0px 10px black;
-                    
-                }   
-                .certificado__bloque__text{
-                    padding: 10px 20px;
-                    .text__nombre{
-                        color: rgb(0, 0, 0);
-                        font-weight: 700;
-                        font-size: 30px;
-                    }
-                    .text__nom{
-                        color: rgb(0, 0, 0);
-                        font-weight: 700;
-                        .texto{
-                            color: rgb(0, 0, 0);
-                            font-weight: 300;
-    
-                        }
-                    }
-                    
-                }
-    
-                
-            }
-    
-            .medalla{
-                width: 80px;
-                height: 100px;
-                position: absolute;
-                top: 460px;
-                left:calc(50% - 150px);
-            }
-        }
-    
-    
-        /*******************************/
-        .footer{
-            width: 100%;
-            height: 750px;
-            padding: 50px 0px;
-            //background: linear-gradient(90deg, rgba(1,12,13,1) 0%, rgba(16,172,183,1) 35%, rgba(0,90,108,1) 100%);
-            //background: linear-gradient(transparent,$color-verdea);
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-                .footer__banner{
-                width: 100%;
-                height: auto;
-                padding: 10px;
-                position: relative;
-                .footer__banner__text{
-                    font-size: 80px;
-                    color:$color-verde-oscuro;
-                    font-weight: 700;
-                    letter-spacing: 2px;
-                    line-height: 80px;
-                    font-family: "Caprica Sans";
-                }
-    
-            }
-    
-    
-            
-        }
-    
-    
-        /*******************************/
-        .footer__textoo{
-            background: $color-negro;
-            text-align: center;
-            font-size: 14px;
-            padding: 50px 0px;
-            color: $color_blanco;
-            font-weight: 100;
-            .span{
-                color: $color-verdea;
-                font-weight: 100;
-            }
-        }
-    
-    
-        /*FLOTANTES*/
-        .PERRITO{
-            width: 100%;
-            height: auto;
-            position: absolute;
-            bottom: 220px;
-            right: initial;
-            animation-name:moverPerro;
-            animation-duration: 5s;
-            animation-timing-function: ease-in-out;
-            animation-fill-mode: forwards;
-            animation-iteration-count: infinite;
-            animation-direction: alternate;
-        }
-        @keyframes moverPerro {
-            0%{
-                transform: scale(1,1);
-            }
-            100%{
-                transform: scale(1.05,1.05);
-    
-            }
-        }
-    
-        .HUELLA{
-            width: 800px;
-            height: 500px;
-            position: absolute;
-            top: 950px;
-            left: -50px;
-            opacity: 0.8;
-            transform: rotate(30deg);
-            z-index: -100;
-        }
-    
-        .CASITA {
-            width: 500px;
-            height: 500px;
-            transform: rotate(10deg);
-            position: absolute; 
-            bottom: 50px;
-            left: 20px;
-            z-index: -100;
-            opacity: 0.2;
-        }
-        
-    
-        .CONTACTAME{
-            width: 240px;
-            background: rgba(255, 255, 255, 0.886);
-            border: 2px solid $color-verde-oscuro;
-            border-radius: 10px;
-            position: fixed;
-            bottom: 40px;
-            right: 50px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 100;
-            opacity: 0;
-            transition: 0.3s;
-            visibility: hidden;
-            .contact__logo{
-                width: 70px;
-                height: 70px;
-                animation-name: moverWats;
-                animation-duration: 1s;
-                animation-timing-function: ease;
-                animation-fill-mode: forwards;
-                animation-iteration-count: infinite;
-                animation-direction: alternate;
-            }
-            @keyframes moverWats {
-                from{
-                    transform: scale(1,1);
-                }to{
-                    transform: scale(1.1,1.1);
-                }
-            }
-            .contact__legend{
-                font-size: 18px;
-                color: black;
-            }
-        }
-        .iconTopJS{
-            opacity: 1;
-            visibility: visible;
-        }
-        /*FLIXIER PROGRAMA*/
-        
-    
-    }
+   
 } 
 
 
@@ -1708,424 +1254,7 @@
 
 /****************************************************/
 @media (min-width:320px)  and (max-width:480px){
-    .bloque__main{
-        width: 100%;
-        max-width: 1240px;
-        padding: 0px;
-        margin: auto;
-        position: relative;
-        overflow: hidden;
-
-        .menu{
-            width: 100%;
-            padding: 10px 0px;
-            background:$color-negro;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            position:fixed;
-            box-shadow: 0px 2px 10px $color-negro;
-            left: 0;
-            top: 0;
-            z-index: 200;
-            .menu__logo{
-                margin-left: 20px;
-                width: 90px;
-                height: 70px;
-            }
-    
-            .menu__nav{
-                width: 250px;
-                padding: 10px 0px;
-                margin-right: 20px;
-    
-                .menu__navUl{
-                    width: 100%;
-                    padding: 5px 0px;
-                    //background:rgb(52, 52, 52);
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-around;
-                    align-items: center;
-                    .menu__navUlLi{
-                        width: 30%;
-                        padding: 5px 0px;
-                        //background:$color-verde-oscuro;
-                        list-style: none;
-                        text-align: center;
-                       
-                        .liLink{
-                            text-decoration: none;
-                            color: $color_blanco;
-                            transition: 0.2s all;
-                            padding: 5px 0px;
-    
-                        }
-                        .liLink:hover{
-    
-                            color: $color-verde-oscuro;
-                            border-bottom: 2px solid white;
-                        }
-                    }
-    
-                }
-               
-    
-            }
-    
-        
-            .menu__btnHamburguesa{
-                margin-right: 20px;
-                width: 50px;
-                height: 50px;
-                background: black;
-                display: none;
-            }
-           
-    
-    
-        }
-    
-    
-        /********************************/
-        .banner{
-            margin: 80px 0px;
-            width: 100%;
-            padding: 10px 0px;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;    
-
-            .banner__bloqueLeft{    
-                width:100%;
-                padding: 40px 0px;
-                text-align: center;
-                .banner__title{
-                    width: 100%;
-                    margin-top: 50px;
-                    color: $color-negro;
-                    font-size:62px;
-                    line-height: 58px;
-                    letter-spacing: -2px;
-    
-                    
-                }
-                .banner__subTitle{
-                    width: 100%;
-                    color: $color-verde-oscuro;
-                    font-size: 22px;
-                    letter-spacing: 3px;
-                }
-            }
-    
-            .banner__bloqueRight{
-                width: 100%;
-                height: auto;
-                padding: 10px;
-                color: white;   
-            }
-          
-        }
-    
-    
-        /********************************/
-        .servicios{
-            margin:auto;
-            width: 100%;
-            padding: 5px 0px;
-            .servicios__bloque{
-                width: 100%;
-                padding: 10px 0px;
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                align-items: flex-start;
-                .servicios__bloque_subBloque{
-                    width:90%;
-                    height: initial;
-                    padding: 30px 0px;   
-                    margin: 25px auto;
-                    border-radius: 10px;
-                    position: relative;
-                    background: $color-negro;
-                    box-shadow: 0px 0px 15px grey;
-                    transition: 0.5s ease all;
-                    .subBloque__figureText{
-                        width: 100%;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content:flex-start  ;
-                        align-items: center;
-                        position: relative;
-                        .figure{
-                            width: 150px;
-                            height: 150px;
-                            border-radius: 50%;
-                            background: $color_blanco;
-                            overflow:hidden;
-                            position: relative;
-                            z-index: 100;
-                            border: 4px solid $color-verde-oscuro;
-                            box-shadow: 5px 0px 10px $color-verde-oscuro;
-                        }
-                        .legenda{
-                            width:80%;
-                            padding: 8px 0px;
-                            margin: 10px auto;
-                            text-align: center;
-                            background: rgb(255, 255, 255);
-                            border-radius: 20px 20px;
-                            border: 4px solid $color-verde-oscuro;
-                            line-height: 25px;
-                            font-size: 20px;
-                        }
-                    }
-
-                    .subBloque__text{
-                        width: 90%;
-                        margin: auto;
-                        padding: 2px;
-                        text-align: center;
-                        position: relative;
-                        right: initial;
-                        bottom:initial;
-                        color: $color_blanco;   
-                        font-size: 14px;
-                    }
-    
-                }
-    
-                .servicios__bloque_subBloque:hover{
-                    transform: scale(1.08,1.06);
-                    cursor: pointer;
-                }
-            
-            }
-        }
-    
-        /**********************************/
-        .certificado{
-            margin-top: 50px;
-            width: 100%;
-            background:white;
-            padding: 0px 0px;
-            position: relative;
-
-            .certificado_title{
-                margin: auto;
-                width: 100%;
-                text-align: center;
-                font-size: 32px;
-                line-height: 32px;
-                color: $color-verde-oscuro;
-            }
-            .certificado_subtitle{
-                width: 80%;
-                margin: 10px auto;
-                text-align: center;
-                font-size: 18px;
-                line-height: 18px;
-                color: $color-negro;  
-    
-            }
-            .certificado_img{
-                margin: 30px auto;
-                width: 280px;
-                height: 280px;
-            }
-            .certificado__bloque{
-                width: 100%;
-                padding: 20px 0px;
-                background: rgb(233, 233, 233);
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-start;
-                align-items: center;
-
-                .certificado__bloque__img{
-                    width: 250px;
-                    height: 250px;
-                    background: grey;
-                    border: 2px solid black;
-                    border-radius: 10px 10px;
-                    overflow: hidden;
-                    box-shadow: 0px 0px 10px black;
-                    
-                }   
-                .certificado__bloque__text{
-                    padding: 10px 20px;
-                    .text__nombre{
-                        color: rgb(0, 0, 0);
-                        font-weight: 700;
-                        font-size: 30px;
-                    }
-                    .text__nom{
-                        color: rgb(0, 0, 0);
-                        font-weight: 700;
-                        .texto{
-                            color: rgb(0, 0, 0);
-                            font-weight: 300;
-    
-                        }
-                    }
-                    
-                }
-    
-                
-            }
-    
-            .medalla{
-                width: 80px;
-                height: 100px;
-                position: absolute;
-                top: 460px;
-                left:calc(50% - 150px);
-            }
-        }
-    
-    
-        /*******************************/
-        .footer{
-            width: 100%;
-            height: 600px;
-            padding: 50px 0px;
-            //background: linear-gradient(90deg, rgba(1,12,13,1) 0%, rgba(16,172,183,1) 35%, rgba(0,90,108,1) 100%);
-            //background: linear-gradient(transparent,$color-verdea);
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-                .footer__banner{
-                width: 100%;
-                height: auto;
-                padding: 10px;
-                position: relative;
-                .footer__banner__text{
-                    font-size: 60px;
-                    color:$color-verde-oscuro;
-                    font-weight: 700;
-                    letter-spacing: 2px;
-                    line-height: 60px;
-                    font-family: "Caprica Sans";
-                }
-    
-            }
-    
-    
-            
-        }
-    
-    
-        /*******************************/
-        .footer__textoo{
-            background: $color-negro;
-            text-align: center;
-            font-size: 14px;
-            padding: 50px 0px;
-            color: $color_blanco;
-            font-weight: 100;
-            .span{
-                color: $color-verdea;
-                font-weight: 100;
-            }
-        }
-    
-    
-        /*FLOTANTES*/
-        .PERRITO{
-            width: 100%;
-            height: auto;
-            position: absolute;
-            bottom: 160px;
-            right: initial;
-            animation-name:moverPerro;
-            animation-duration: 5s;
-            animation-timing-function: ease-in-out;
-            animation-fill-mode: forwards;
-            animation-iteration-count: infinite;
-            animation-direction: alternate;
-        }
-        @keyframes moverPerro {
-            0%{
-                transform: scale(1,1);
-            }
-            100%{
-                transform: scale(1.05,1.05);
-    
-            }
-        }
-    
-        .HUELLA{
-            width: 800px;
-            height: 500px;
-            position: absolute;
-            top: 610px;
-            left: -50px;
-            opacity: 0.8;
-            transform: rotate(30deg);
-            z-index: -100;
-        }
-    
-        .CASITA {
-            width: 500px;
-            height: 500px;
-            transform: rotate(10deg);
-            position: absolute; 
-            bottom: 50px;
-            left: 20px;
-            z-index: -100;
-            opacity: 0.2;
-        }
-        
-    
-        .CONTACTAME{
-            width: 240px;
-            background: rgba(255, 255, 255, 0.886);
-            border: 2px solid $color-verde-oscuro;
-            border-radius: 10px;
-            position: fixed;
-            bottom: 40px;
-            right: 50px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 100;
-            opacity: 0;
-            transition: 0.3s;
-            visibility: hidden;
-            .contact__logo{
-                width: 70px;
-                height: 70px;
-                animation-name: moverWats;
-                animation-duration: 1s;
-                animation-timing-function: ease;
-                animation-fill-mode: forwards;
-                animation-iteration-count: infinite;
-                animation-direction: alternate;
-            }
-            @keyframes moverWats {
-                from{
-                    transform: scale(1,1);
-                }to{
-                    transform: scale(1.1,1.1);
-                }
-            }
-            .contact__legend{
-                font-size: 18px;
-                color: black;
-            }
-        }
-        .iconTopJS{
-            opacity: 1;
-            visibility: visible;
-        }
-        /*FLIXIER PROGRAMA*/
-        
-    
-    }
+  
 } 
 
 
