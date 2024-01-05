@@ -1442,9 +1442,8 @@
     /********************************/
     /********************************/
     /**********************************/
+    /********************************/
     /*******************************/
-    /*FLOTANTES*/
-    /*FLIXIER PROGRAMA*/
   }
   .bloque__main .menu {
     width: 100%;
@@ -1689,112 +1688,50 @@
   }
   .bloque__main .footer {
     width: 100%;
-    padding: 10px 20px;
-    background: teal;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  .bloque__main .footer .footer__banner {
-    width: 500px;
-    height: 320px;
-    padding: 20px;
-    position: relative;
-  }
-  .bloque__main .footer .footer__banner .footer__banner__text {
-    font-size: 70px;
-    color: #10acb7;
-    font-weight: 700;
-    letter-spacing: 9px;
-    line-height: 80px;
-    font-family: "Caprica Sans";
-  }
-  .bloque__main .PERRITO {
-    width: 750px;
-    height: 500px;
-    position: absolute;
-    bottom: 120px;
-    right: 10px;
-    animation-name: moverPerro;
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  }
-  @keyframes moverPerro {
-    0% {
-      transform: scale(1, 1);
-    }
-    100% {
-      transform: scale(1.05, 1.05);
-    }
-  }
-  .bloque__main .HUELLA {
-    width: 800px;
-    height: 500px;
-    position: absolute;
-    top: 550px;
-    left: 10px;
-    opacity: 0.5;
-    transform: rotate(30deg);
-    z-index: -100;
-  }
-  .bloque__main .CASITA {
-    width: 500px;
-    height: 500px;
-    transform: rotate(10deg);
-    position: absolute;
-    bottom: 50px;
-    left: 20px;
-    z-index: -100;
-    opacity: 0.2;
-  }
-  .bloque__main .CONTACTAME {
-    width: auto;
-    position: fixed;
-    bottom: 40px;
-    right: 50px;
+    margin-top: initial;
+    padding: 10px 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    z-index: 100;
-    opacity: 0;
-    transition: 0.3s;
-    visibility: hidden;
+    position: relative;
   }
-  .bloque__main .CONTACTAME .contact__logo {
-    width: 90px;
-    height: 90px;
-    animation-name: moverWats;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+  .bloque__main .footer .footer__banner__text {
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    color: rgb(32, 32, 32);
+    font-size: 55px;
+    text-align: center;
+    font-family: "Caprica Sans";
+    background: rgba(248, 255, 51, 0.745);
   }
-  @keyframes moverWats {
-    from {
-      transform: scale(1, 1);
-    }
-    to {
-      transform: scale(1.1, 1.1);
-    }
+  .bloque__main .footer .footer__banner__img {
+    width: 45%;
+    height: 350px;
+    padding: 5px;
   }
-  .bloque__main .CONTACTAME .contact__legend {
-    font-size: 18px;
+  .bloque__main .footer .footer__banner__casita {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 200px;
+    bottom: 150px;
+    transform: rotate(20deg);
+    opacity: 0.2;
+    z-index: -100;
+  }
+  .bloque__main .footer__textoo {
+    background: rgb(32, 32, 32);
+    text-align: center;
+    font-size: 14px;
+    padding: 50px 0px;
     color: white;
-    background: rgb(6, 173, 6);
-    padding: 2px 15px;
-    margin-left: -20px;
-    box-shadow: 0px 0px 4px rgb(0, 0, 0);
-    border-radius: 0px 10px 10px 0px;
+    font-weight: 100;
   }
-  .bloque__main .iconTopJS {
-    opacity: 1;
-    visibility: visible;
+  .bloque__main .footer__textoo .span {
+    color: rgba(18, 170, 181, 0.8784313725);
+    font-weight: 100;
   }
 }
 /****************************************************/
