@@ -1439,11 +1439,9 @@
     margin: auto;
     position: relative;
     overflow: hidden;
-    background: rgba(255, 166, 0, 0.19);
     /********************************/
     /********************************/
     /**********************************/
-    /*******************************/
     /*******************************/
     /*FLOTANTES*/
     /*FLIXIER PROGRAMA*/
@@ -1504,9 +1502,9 @@
     display: none;
   }
   .bloque__main .banner {
-    margin: 80px 0px;
+    margin: initial;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1531,7 +1529,7 @@
     letter-spacing: 11px;
   }
   .bloque__main .banner .banner__bloqueRight {
-    width: 90%;
+    width: 70%;
     height: initial;
     margin: 50px auto;
     padding: 10px;
@@ -1548,7 +1546,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: flex-start;
   }
   .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque {
@@ -1656,9 +1654,9 @@
     overflow: hidden;
   }
   .bloque__main .certificado .certificado__bloque .certificado__bloque_section {
-    width: 75%;
+    width: 70%;
     margin-top: 30px;
-    padding: 40px 30px;
+    padding: 30px 30px;
     background: rgb(198, 240, 252);
     position: initial;
     display: flex;
@@ -1669,8 +1667,8 @@
   }
   .bloque__main .certificado .certificado__bloque .certificado__bloque_section .certificado_img {
     width: 250px;
-    height: 250px;
-    margin: auto;
+    height: initial;
+    margin: initial;
   }
   .bloque__main .certificado .certificado__bloque .certificado__bloque_section .certificado__bloque__text {
     padding: 10px 20px;
@@ -1711,18 +1709,6 @@
     letter-spacing: 9px;
     line-height: 80px;
     font-family: "Caprica Sans";
-  }
-  .bloque__main .footer__textoo {
-    background: rgb(32, 32, 32);
-    text-align: center;
-    font-size: 14px;
-    padding: 50px 0px;
-    color: white;
-    font-weight: 100;
-  }
-  .bloque__main .footer__textoo .span {
-    color: rgba(18, 170, 181, 0.8784313725);
-    font-weight: 100;
   }
   .bloque__main .PERRITO {
     width: 750px;

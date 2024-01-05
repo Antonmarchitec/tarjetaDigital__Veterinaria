@@ -505,7 +505,6 @@
         margin: auto;
         position: relative;
         overflow: hidden;
-        background: rgba(255, 166, 0, 0.19);
         .menu{
             width: 100%;
             padding: 10px 0px;
@@ -580,9 +579,9 @@
     
         /********************************/
         .banner{
-            margin: 80px 0px;
+            margin:initial;
             width: 100%;
-            padding-top: 50px;
+            padding-top: 120px;
             display: flex;
             flex-direction:column;
             justify-content: center ;
@@ -609,11 +608,12 @@
             }
     
             .banner__bloqueRight{
-                width: 90%;
+                width: 70%;
                 height: initial;
                 margin: 50px auto;
                 padding: 10px;
                 color: white;   
+
             }
           
         }
@@ -630,7 +630,7 @@
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
-                justify-content: space-around;
+                justify-content: space-evenly;
                 align-items: flex-start;
                 .servicios__bloque_subBloque{
                     width: 360px;
@@ -750,9 +750,9 @@
                 }
     
                 .certificado__bloque_section{
-                    width: 75%;
+                    width: 70%;
                     margin-top: 30px;
-                    padding: 40px 30px;
+                    padding: 30px 30px;
                     background: rgb(198, 240, 252);
                     position: initial;
                     display: flex;
@@ -762,8 +762,8 @@
                     border-radius: 20px;
                     .certificado_img{
                         width:250px;
-                        height: 250px;
-                        margin: auto;
+                        height: initial;
+                        margin: initial;
                     } 
                     
                     .certificado__bloque__text{
@@ -787,8 +787,6 @@
                     }
                 }
             }
-    
-
         }
     
     
@@ -827,20 +825,6 @@
             
         }
     
-    
-        /*******************************/
-        .footer__textoo{
-            background: $color-negro;
-            text-align: center;
-            font-size: 14px;
-            padding: 50px 0px;
-            color: $color_blanco;
-            font-weight: 100;
-            .span{
-                color: $color-verdea;
-                font-weight: 100;
-            }
-        }
     
     
         /*FLOTANTES*/
