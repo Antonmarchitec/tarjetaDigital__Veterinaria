@@ -2052,7 +2052,6 @@
     margin: auto;
     position: relative;
     overflow: hidden;
-    background: palegreen;
     /********************************/
     /********************************/
     /**********************************/
@@ -2242,26 +2241,25 @@
     width: 100%;
     padding: 10px 0px;
     position: relative;
-    background: grey;
   }
   .bloque__main .certificado .certificado_title {
     margin: auto;
     width: 80%;
     text-align: center;
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 45px;
+    line-height: 45px;
     color: #10acb7;
   }
   .bloque__main .certificado .certificado_subtitle {
-    width: 80%;
+    width: 100%;
     margin: 10px auto;
     text-align: center;
     color: rgb(32, 32, 32);
-    font-size: 20px;
+    font-size: 18px;
   }
   .bloque__main .certificado .certificado__bloque {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 10px 0px;
     display: flex;
     flex-direction: column;
@@ -2270,25 +2268,25 @@
     position: relative;
   }
   .bloque__main .certificado .certificado__bloque .certificado__bloque__foto {
-    width: 48%;
-    height: 48%;
+    width: 45%;
+    height: 45%;
     border-radius: 50%;
     overflow: hidden;
   }
   .bloque__main .certificado .certificado__bloque .certificado__bloque_section {
-    width: 80%;
-    margin-top: 30px;
+    width: 90%;
+    margin-top: 20px;
     padding: 20px 10px;
     background: rgb(198, 240, 252);
     position: initial;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     border-radius: 20px;
   }
   .bloque__main .certificado .certificado__bloque .certificado__bloque_section .certificado_img {
-    width: 210px;
+    width: 200px;
     height: initial;
     margin: initial;
   }
@@ -2298,12 +2296,13 @@
   .bloque__main .certificado .certificado__bloque .certificado__bloque_section .certificado__bloque__text .text__nombre {
     color: rgb(0, 0, 0);
     font-weight: 700;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 28px;
   }
   .bloque__main .certificado .certificado__bloque .certificado__bloque_section .certificado__bloque__text .text__nom {
     color: rgb(0, 0, 0);
     font-weight: 700;
+    font-size: 14px;
   }
   .bloque__main .certificado .certificado__bloque .certificado__bloque_section .certificado__bloque__text .text__nom .texto {
     color: rgb(0, 0, 0);
@@ -2312,7 +2311,7 @@
   .bloque__main .footer {
     width: 100%;
     margin-top: initial;
-    padding: 5px 0px;
+    padding: 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -2320,26 +2319,27 @@
     position: relative;
   }
   .bloque__main .footer .footer__banner__text {
-    width: 380px;
+    width: 280px;
     height: initial;
     padding: 40px;
     color: rgb(32, 32, 32);
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-family: "Caprica Sans";
     background: rgba(248, 255, 51, 0.745);
   }
   .bloque__main .footer .footer__banner__img {
-    width: 60%;
+    width: 80%;
     height: 300px;
     padding: 5px;
+    margin-top: -80px;
   }
   .bloque__main .footer .footer__banner__casita {
     width: 500px;
     height: 500px;
     position: absolute;
-    left: 200px;
-    bottom: 150px;
+    left: 20px;
+    bottom: 50px;
     transform: rotate(20deg);
     opacity: 0.2;
     z-index: -100;
