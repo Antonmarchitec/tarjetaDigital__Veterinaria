@@ -1584,6 +1584,362 @@
 
 /****************************************************/
 @media (min-width:320px)  and (max-width:539px){
+    .bloque__main{
+        width: 100%;
+        max-width: 1240px;
+        padding: 0px 0px;
+        margin: auto;
+        position: relative;
+        overflow: hidden;
+        .menu{
+            width: 100%;
+            padding: 10px 0px;
+            background:$color-negro;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            position:fixed;
+            box-shadow: 0px 2px 10px $color-negro;
+            left: 0;
+            top: 0;
+            z-index: 200;
+            .menu__logo{
+                margin-left: 20px;
+                width: 90px;
+                height: 70px;
+            }
+    
+            .menu__nav{
+                width: 250px;
+                padding: 10px 0px;
+                margin-right: 20px;
+    
+                .menu__navUl{
+                    width: 100%;
+                    padding: 5px 0px;
+                    //background:rgb(52, 52, 52);
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    .menu__navUlLi{
+                        width: 30%;
+                        padding: 5px 0px;
+                        //background:$color-verde-oscuro;
+                        list-style: none;
+                        text-align: center;
+                       
+                        .liLink{
+                            text-decoration: none;
+                            color: $color_blanco;
+                            transition: 0.2s all;
+                            padding: 5px 0px;
+    
+                        }
+                        .liLink:hover{
+    
+                            color: $color-verde-oscuro;
+                            border-bottom: 2px solid white;
+                        }
+                    }
+    
+                }
+               
+    
+            }
+    
+        
+            .menu__btnHamburguesa{
+                margin-right: 20px;
+                width: 50px;
+                height: 50px;
+                background: black;
+                display: none;
+            }
+           
+    
+    
+        }
+    
+    
+        /********************************/
+        .banner{
+            margin:initial;
+            width: 100%;
+            padding-top: 120px;
+            display: flex;
+            flex-direction:column;
+            justify-content: center ;
+            align-items: flex-start;    
+            .banner__bloqueLeft{    
+                width:100%;
+                margin: auto;
+                padding: initial;
+                text-align: center;
+                .banner__title{
+                    margin-top: 50px;
+                    color: $color-negro;
+                    font-size:65px;
+                    line-height: 65px;
+                    letter-spacing: -5px;
+                    
+                }
+                .banner__subTitle{
+                    color: $color-verde-oscuro;
+                    font-size: 20px;
+                    letter-spacing: 7px;
+                }
+            }
+    
+            .banner__bloqueRight{
+                width:85%;
+                height: initial;
+                margin: 45px auto;
+                padding: 10px;
+                color: white;   
+
+            }
+          
+        }
+
+        /********************************/
+        .servicios{
+            margin:initial;
+            width: 100%;
+            padding: 10px 0px;
+            .servicios__bloque{
+                width: 100%;
+                padding: 10px 0px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                align-items: flex-start;
+                .servicios__bloque_subBloque{
+                    width: 280px;
+                    height: initial;
+                    padding: 40px 20px;   
+                    margin: 25px 0px;
+                    border-radius: 10px;
+                    box-shadow: 0px 0px 15px grey;
+                    transition: 0.5s ease all;
+                    background:white;
+    
+                    .subBloque__figureText{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content:flex-start;
+                        align-items: center;
+                        .figure{
+                            width: 60px;
+                            height: 60px;
+                            padding: 10px;
+                            border-radius: 50%;
+                            background: $color-verde-oscuro;
+                            border: 4px solid $color-verde-oscuro;
+                            font-size: 20px;
+                            position: relative;
+                            z-index: 100;
+                        }
+                        .legenda{
+                            width: 100%;
+                            padding: 5px 20px;
+                            margin-left: -25px;
+                            background: rgb(255, 255, 255);
+                            border-radius: 0px 20px 20px 0px;
+                            border: 4px solid $color-verde-oscuro;
+                            line-height: 18px;
+                            font-size: 20px;
+                            text-align: end;
+                        }
+                    }
+    
+                    .subBloque__imagen{
+                        width: 100%;
+                        height: 170px;
+                        margin: 10px auto;
+                        border-radius:10px;
+                        overflow: hidden;
+                        border: 2px solid $color-verdea
+                    }
+    
+                    .subBloque__parrafo{
+                        color: rgb(37, 37, 37);
+                        font-weight: 300;
+                        height: 120px;
+                        font-size: 14px;
+                    }
+    
+                    .linkBoton{
+                        text-decoration: none;
+                        .subBloque__boton{
+                            width: 100%;
+                            margin-top: 15px;
+                            padding: 8px 20px;
+                            background: $color-negro;
+                            text-align: center;
+                            color: white;
+                            font-size: 14px;
+                            border-radius: 10px;
+                            transition: 0.1s;
+                        }
+                        .subBloque__boton:hover{
+                            cursor: pointer;
+                            box-shadow: 0px 2px 0px rgb(71, 71, 71);
+                            background: $color-verde-oscuro;
+                        }
+                    }
+                    
+                
+                }
+    
+                .servicios__bloque_subBloque:hover{
+                    transform: scale(1.02,1.02);
+                    
+                }
+            
+            }
+        }
+    
+        /**********************************/
+        .certificado{
+            margin: 30px auto;
+            width: 100%;
+            padding: 10px 0px;
+            position: relative;
+            .certificado_title{
+                margin: auto;
+                width:100%;
+                text-align: center;
+                font-size: 35px;
+                line-height: 32px;
+                color: $color-verde-oscuro;
+            }
+            .certificado_subtitle{
+                width: 100%;
+                margin: 10px auto;
+                text-align: center;
+                color: $color-negro;
+                font-size: 16px;    
+            }
+    
+            .certificado__bloque{
+                width: 100%;
+                margin-top: 30px;
+                padding: 10px 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items:center;
+                position: relative;
+                .certificado__bloque__foto{
+                    width: 80%;
+                    height: initial;
+                    border-radius: 50%;
+                    overflow: hidden;
+                }
+    
+                .certificado__bloque_section{
+                    width: 90%;
+                    margin-top: 20px;
+                    padding: 20px 10px;
+                    background: rgb(198, 240, 252);
+                    position: initial;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 20px;
+                    .certificado_img{
+                        width:200px;
+                        height: initial;
+                        margin: initial;
+                    } 
+                    
+                    .certificado__bloque__text{
+                        padding: 10px 20px;
+                        .text__nombre{
+                            color: rgb(0, 0, 0);
+                            font-weight: 700;
+                            font-size: 22px;
+                            line-height: 28px;
+                        }
+                        .text__nom{
+                            color: rgb(0, 0, 0);
+                            font-weight: 700;
+                            font-size: 14px;
+                            .texto{
+                                color: rgb(0, 0, 0);
+                                font-weight: 300;
+        
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    
+        /********************************/
+        .footer{
+            width: 100%;
+            margin-top: initial;
+            padding:0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            .footer__banner__text{
+                width: 280px;
+                height: initial;
+                padding: 40px;
+                color: $color-negro;
+                font-size: 30px;
+                text-align: center;
+                font-family: "Caprica Sans";
+                background: rgba(248, 255, 51, 0.745);
+            }
+
+            .footer__banner__img{
+                width: 80%;
+                height: 300px;
+                padding: 5px;
+                margin-top: -50px;
+            }
+
+            .footer__banner__casita{
+                width: 500px;
+                height: 500px;
+                position: absolute;
+                left: 0px;
+                bottom: 50px;
+                transform: rotate(20deg);
+                opacity: 0.2;
+                z-index: -100;
+            }
+        }
+
+
+        /*******************************/
+        .footer__textoo{
+            background: $color-negro;
+            text-align: center;
+            font-size: 14px;
+            padding: 30px 0px;
+            color: $color_blanco;
+            font-weight: 100;
+            .span{
+                color: $color-verdea;
+                font-weight: 100;
+            }
+        }
+    
+    
+      
+    }
   
 } 
 
