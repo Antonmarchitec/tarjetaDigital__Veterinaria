@@ -2358,7 +2358,7 @@
   }
 }
 /****************************************************/
-@media (min-width: 400px) and (max-width: 539px) {
+@media (min-width: 320px) and (max-width: 539px) {
   .bloque__main {
     width: 100%;
     max-width: 1240px;
