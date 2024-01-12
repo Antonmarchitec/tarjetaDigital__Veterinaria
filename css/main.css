@@ -3293,7 +3293,6 @@
     width: 100%;
     padding: 10px 0px;
     position: initial;
-    background: teal;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -3389,20 +3388,23 @@
     border-radius: 20px;
   }
   .bloqueMain .bloquePrincipal3 .bloquePrincipal__title3 {
-    font-size: 35px;
+    font-size: 25px;
+    line-height: 25px;
     color: rgb(255, 255, 255);
   }
   .bloqueMain .bloquePrincipal3 .bloquePrincipal__descripcion3 {
+    margin-top: 10px;
     color: rgb(255, 255, 255);
     font-size: 14px;
   }
   .bloqueMain .bloquePrincipal3 .bloquePrincipal__imagen3 {
-    width: 120px;
-    height: 120px;
+    width: 60px;
+    height: 60px;
     position: absolute;
-    top: -50px;
-    left: initial;
-    right: -50px;
+    top: initial;
+    left: 10px;
+    right: initial;
+    bottom: 10px;
   }
   .bloqueMain .bloquePrincipal3 .bloquePrincipal__imagenPie3 {
     width: 50px;
@@ -3425,19 +3427,22 @@
     border-radius: 20px;
   }
   .bloqueMain .bloquePrincipal4 .bloquePrincipal__title4 {
-    font-size: 35px;
+    font-size: 25px;
+    line-height: 25px;
     color: white;
   }
   .bloqueMain .bloquePrincipal4 .bloquePrincipal__descripcion4 {
+    margin-top: 10px;
     color: white;
     font-size: 14px;
   }
   .bloqueMain .bloquePrincipal4 .bloquePrincipal__imagen4 {
-    width: 160px;
-    height: 200px;
+    width: 110px;
+    height: 140px;
     position: absolute;
-    top: -100px;
-    left: -80px;
+    top: initial;
+    left: 0px;
+    bottom: -30px;
   }
   .bloqueMain .bloquePrincipal4 .bloquePrincipal__imagenPie4 {
     width: 50px;
