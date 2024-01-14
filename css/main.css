@@ -4602,7 +4602,7 @@
     letter-spacing: 0px;
   }
   .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .subcuadro {
-    width: 85%;
+    width: 100%;
     padding: 10px 0px;
     display: flex;
     margin: 10px auto;
@@ -4610,10 +4610,11 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    background: thistle;
   }
   .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .subcuadro .subcuadro__interno {
     margin-bottom: 30px;
-    width: 180px;
+    width: 280px;
     padding: 30px 10px;
     background: rgb(32, 32, 32);
     border-radius: 10px;
@@ -4687,7 +4688,7 @@
   }
   .cont__bloque .cont__bloque__B .cont__bloque__B_cuadro .subcuadro .subcuadro__interno {
     margin: 5px auto;
-    width: 180px;
+    width: 280px;
     padding: 30px 10px;
     background: rgb(32, 32, 32);
     border-radius: 10px;
