@@ -1650,8 +1650,8 @@
     position: relative;
   }
   .bloque__main .certificado .certificado__bloque .certificado__bloque__foto {
-    width: calc(40% - 50px);
-    height: calc(40% - 50px);
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     overflow: hidden;
   }
@@ -1983,8 +1983,8 @@
     position: relative;
   }
   .bloque__main .certificado .certificado__bloque .certificado__bloque__foto {
-    width: 48%;
-    height: 48%;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     overflow: hidden;
   }
@@ -2318,8 +2318,8 @@
     position: relative;
   }
   .bloque__main .certificado .certificado__bloque .certificado__bloque__foto {
-    width: 45%;
-    height: 45%;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     overflow: hidden;
   }
@@ -2655,8 +2655,8 @@
     position: relative;
   }
   .bloque__main .certificado .certificado__bloque .certificado__bloque__foto {
-    width: 80%;
-    height: initial;
+    width: 280px;
+    height: 280px;
     border-radius: 50%;
     overflow: hidden;
   }
