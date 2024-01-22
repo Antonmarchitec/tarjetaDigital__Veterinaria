@@ -1777,6 +1777,10 @@
     display: block;
     position: absolute;
     top: 90px;
+    left: -100%;
+    transition: 0.3s all;
+    opacity: 0;
+    visibility: hidden;
   }
   .bloque__main .menu .menu__nav .menu__navUl {
     width: 100%;
@@ -1810,8 +1814,13 @@
   .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi:hover {
     border-bottom: 8px solid rgb(52, 243, 247);
   }
+  .bloque__main .menu .menu__nav_JS {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+  }
   .bloque__main .menu .menu__btnHamburguesa {
-    margin-right: 30px;
+    margin-right: 20px;
     width: 60px;
     height: 60px;
     display: flex;
@@ -2101,6 +2110,10 @@
     display: block;
     position: absolute;
     top: 90px;
+    left: -100%;
+    transition: 0.3s all;
+    opacity: 0;
+    visibility: hidden;
   }
   .bloque__main .menu .menu__nav .menu__navUl {
     width: 100%;
@@ -2134,8 +2147,13 @@
   .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi:hover {
     border-bottom: 8px solid rgb(52, 243, 247);
   }
+  .bloque__main .menu .menu__nav_JS {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+  }
   .bloque__main .menu .menu__btnHamburguesa {
-    margin-right: 30px;
+    margin-right: 20px;
     width: 60px;
     height: 60px;
     display: flex;
@@ -2429,6 +2447,10 @@
     display: block;
     position: absolute;
     top: 90px;
+    left: -100%;
+    transition: 0.3s all;
+    opacity: 0;
+    visibility: hidden;
   }
   .bloque__main .menu .menu__nav .menu__navUl {
     width: 100%;
@@ -2460,10 +2482,15 @@
     border-bottom: initial;
   }
   .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi:hover {
-    border-bottom: 8px solid rgb(57, 206, 240);
+    border-bottom: 8px solid rgb(52, 243, 247);
+  }
+  .bloque__main .menu .menu__nav_JS {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
   }
   .bloque__main .menu .menu__btnHamburguesa {
-    margin-right: 30px;
+    margin-right: 20px;
     width: 60px;
     height: 60px;
     display: flex;
