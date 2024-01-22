@@ -1,13 +1,12 @@
 
   //ESTE DOCUMENTO FUE CREADO EN EL VIDEO
   
-  
-  // Look for .hamburger
-  //var contEnlaces = document.getElementById("menuenlaces");
-  var hamburger = document.querySelector(".hamburger");
-  // On click
-  hamburger.addEventListener("click", function() {
-    // Toggle class "is-active"
-    hamburger.classList.toggle("is-active");
-    // Do something else, like open/close menu
-  });
+
+
+
+  let menu__btnHamburguesa = document.querySelector("hamburger")
+  let menu__nav = document.querySelector("menu__nav")
+
+  menu__btnHamburguesa.addEventListener("click", ()=>{
+    console.log("le diste click")
+  })
