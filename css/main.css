@@ -1264,10 +1264,12 @@
   position: relative;
 }
 .bloque__main .certificado .certificado__bloque .certificado__bloque__foto {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
   overflow: hidden;
+  border: 5px solid rgb(17, 83, 86);
+  background: linear-gradient(transparent, rgba(18, 170, 181, 0.8784313725));
 }
 .bloque__main .certificado .certificado__bloque .certificado__bloque_section {
   width: 450px;
