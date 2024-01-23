@@ -3886,7 +3886,7 @@
 .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .cont__bloque__A_cuadro__title {
   text-align: center;
   font-size: 50px;
-  color: rgb(32, 32, 32);
+  color: rgb(17, 83, 86);
   letter-spacing: 2px;
 }
 .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .subcuadro {
@@ -3903,9 +3903,10 @@
   margin-bottom: 30px;
   width: 200px;
   padding: 30px 10px;
-  background: rgb(32, 32, 32);
   border-radius: 10px;
   box-shadow: 0px 0px 5px black;
+  background: rgb(32, 32, 32);
+  border: 2px solid rgb(17, 83, 86);
   transition: 0.2s ease;
 }
 .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .subcuadro .subcuadro__interno .subcuadro__interno__img {
@@ -3960,7 +3961,7 @@
 .cont__bloque .cont__bloque__B .cont__bloque__B_cuadro .cont__bloque__B_cuadro__title {
   text-align: center;
   font-size: 50px;
-  color: rgb(32, 32, 32);
+  color: rgb(17, 83, 86);
   letter-spacing: 5px;
 }
 .cont__bloque .cont__bloque__B .cont__bloque__B_cuadro .subcuadro {
@@ -4042,7 +4043,6 @@
   .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .cont__bloque__A_cuadro__title {
     text-align: center;
     font-size: 50px;
-    color: rgb(32, 32, 32);
     letter-spacing: 2px;
   }
   .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .subcuadro {
@@ -4116,7 +4116,6 @@
   .cont__bloque .cont__bloque__B .cont__bloque__B_cuadro .cont__bloque__B_cuadro__title {
     text-align: center;
     font-size: 50px;
-    color: rgb(32, 32, 32);
     letter-spacing: 5px;
   }
   .cont__bloque .cont__bloque__B .cont__bloque__B_cuadro .subcuadro {
@@ -4198,7 +4197,6 @@
   .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .cont__bloque__A_cuadro__title {
     text-align: center;
     font-size: 45px;
-    color: rgb(32, 32, 32);
     letter-spacing: 0px;
   }
   .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .subcuadro {
@@ -4272,7 +4270,6 @@
   .cont__bloque .cont__bloque__B .cont__bloque__B_cuadro .cont__bloque__B_cuadro__title {
     text-align: center;
     font-size: 45px;
-    color: rgb(32, 32, 32);
     letter-spacing: 0px;
   }
   .cont__bloque .cont__bloque__B .cont__bloque__B_cuadro .subcuadro {
@@ -4346,7 +4343,6 @@
   .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .cont__bloque__A_cuadro__title {
     text-align: center;
     font-size: 45px;
-    color: rgb(32, 32, 32);
     letter-spacing: 0px;
   }
   .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .subcuadro {
@@ -4420,7 +4416,6 @@
   .cont__bloque .cont__bloque__B .cont__bloque__B_cuadro .cont__bloque__B_cuadro__title {
     text-align: center;
     font-size: 45px;
-    color: rgb(32, 32, 32);
     letter-spacing: 0px;
   }
   .cont__bloque .cont__bloque__B .cont__bloque__B_cuadro .subcuadro {
@@ -4494,7 +4489,6 @@
   .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .cont__bloque__A_cuadro__title {
     text-align: center;
     font-size: 45px;
-    color: rgb(32, 32, 32);
     letter-spacing: 0px;
   }
   .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .subcuadro {
@@ -4568,7 +4562,6 @@
   .cont__bloque .cont__bloque__B .cont__bloque__B_cuadro .cont__bloque__B_cuadro__title {
     text-align: center;
     font-size: 45px;
-    color: rgb(32, 32, 32);
     letter-spacing: 0px;
   }
   .cont__bloque .cont__bloque__B .cont__bloque__B_cuadro .subcuadro {
@@ -4642,7 +4635,6 @@
   .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .cont__bloque__A_cuadro__title {
     text-align: center;
     font-size: 45px;
-    color: rgb(32, 32, 32);
     letter-spacing: 0px;
   }
   .cont__bloque .cont__bloque__A .cont__bloque__A_cuadro .subcuadro {
@@ -4716,7 +4708,6 @@
   .cont__bloque .cont__bloque__B .cont__bloque__B_cuadro .cont__bloque__B_cuadro__title {
     text-align: center;
     font-size: 45px;
-    color: rgb(32, 32, 32);
     letter-spacing: 0px;
   }
   .cont__bloque .cont__bloque__B .cont__bloque__B_cuadro .subcuadro {
