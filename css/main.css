@@ -2495,17 +2495,19 @@
     align-items: center;
   }
   .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__figureText .figure {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     padding: 10px;
     border-radius: 50%;
-    font-size: 20px;
     position: relative;
     z-index: 100;
   }
+  .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__figureText .figure .iconsService {
+    font-size: 45px;
+  }
   .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__figureText .legenda {
     width: 100%;
-    padding: 5px 20px;
+    padding: 10px 20px;
     margin-left: -25px;
     background: rgb(255, 255, 255);
     border-radius: 0px 20px 20px 0px;
@@ -2532,7 +2534,7 @@
   .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .linkBoton .subBloque__boton {
     width: 100%;
     margin-top: 15px;
-    padding: 8px 20px;
+    padding: 10px;
     background: rgb(32, 32, 32);
     text-align: center;
     color: white;

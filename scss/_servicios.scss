@@ -1730,17 +1730,19 @@
                         justify-content:flex-start;
                         align-items: center;
                         .figure{
-                            width: 70px;
-                            height: 70px;
+                            width: 90px;
+                            height: 90px;
                             padding: 10px;
                             border-radius: 50%;
-                            font-size: 20px;
                             position: relative;
                             z-index: 100;
+                            .iconsService{
+                                font-size: 45px;
+                            }
                         }
                         .legenda{
                             width: 100%;
-                            padding: 5px 20px;
+                            padding: 10px 20px;
                             margin-left: -25px;
                             background: rgb(255, 255, 255);
                             border-radius: 0px 20px 20px 0px;
@@ -1770,7 +1772,7 @@
                         .subBloque__boton{
                             width: 100%;
                             margin-top: 15px;
-                            padding: 8px 20px;
+                            padding: 10px;
                             background: $color-negro;
                             text-align: center;
                             color: white;
