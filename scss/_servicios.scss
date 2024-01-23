@@ -458,6 +458,7 @@
         margin: auto;
         position: relative;
         overflow: hidden;
+
         .menu{
             width: 100%;
             padding: 10px 0px;
@@ -554,7 +555,6 @@
                 }
                 .banner__subTitle{
                     
-                    color: $color-verde-oscuro;
                     font-size: 35px;
                     letter-spacing: 11px;
                 }
@@ -605,8 +605,7 @@
                             height: 100px;
                             padding: 15px;
                             border-radius: 50%;
-                            background: $color-verde-oscuro;
-                            border: 4px solid $color-verde-oscuro;
+                            
                             font-size: 20px;
                             position: relative;
                             z-index: 100;
@@ -617,7 +616,7 @@
                             margin-left: -15px;
                             background: rgb(255, 255, 255);
                             border-radius: 0px 20px 20px 0px;
-                            border: 4px solid $color-verde-oscuro;
+                            border: 4px solid $color-verde;
                             line-height: 25px;
                         }
                     }
@@ -628,8 +627,7 @@
                         margin: 30px auto;
                         border-radius:10px;
                         overflow: hidden;
-                        background: red;
-                        border: 2px solid $color-verdea
+                        
                     }
     
                     .subBloque__parrafo{
@@ -679,7 +677,6 @@
                 text-align: center;
                 font-size: 60px;
                 line-height: 60px;
-                color: $color-verde-oscuro;
             }
             .certificado_subtitle{
                 text-align: center;
@@ -815,7 +812,6 @@
         margin: auto;
         position: relative;
         overflow: hidden;
-
         .menu{
             width: 100%;
             padding: 10px 0px;
@@ -933,7 +929,6 @@
                     
                 }
                 .banner__subTitle{
-                    color: $color-verde-oscuro;
                     font-size: 30px;
                     letter-spacing: 11px;
                 }
@@ -983,8 +978,6 @@
                             height: 80px;
                             padding: 10px;
                             border-radius: 50%;
-                            background: $color-verde-oscuro;
-                            border: 4px solid $color-verde-oscuro;
                             font-size: 20px;
                             position: relative;
                             z-index: 100;
@@ -995,7 +988,6 @@
                             margin-left: -25px;
                             background: rgb(255, 255, 255);
                             border-radius: 0px 20px 20px 0px;
-                            border: 4px solid $color-verde-oscuro;
                             line-height: 20px;
                             font-size: 20px;
                             text-align: end;
@@ -1008,8 +1000,7 @@
                         margin: 20px auto;
                         border-radius:10px;
                         overflow: hidden;
-                        background: red;
-                        border: 2px solid $color-verdea
+                      
                     }
     
                     .subBloque__parrafo{
@@ -1060,7 +1051,6 @@
                 text-align: center;
                 font-size: 50px;
                 line-height: 50px;
-                color: $color-verde-oscuro;
             }
             .certificado_subtitle{
                 width: 80%;
@@ -1315,7 +1305,6 @@
                     
                 }
                 .banner__subTitle{
-                    color: $color-verde-oscuro;
                     font-size: 25px;
                     letter-spacing: 11px;
                 }
@@ -1362,13 +1351,10 @@
                         justify-content:flex-start;
                         align-items: center;
                         .figure{
-                            width: 55px;
-                            height: 55px;
+                            width: 70px;
+                            height: 70px;
                             padding: 10px;
                             border-radius: 50%;
-                            background: $color-verde-oscuro;
-                            border: 4px solid $color-verde-oscuro;
-                            font-size: 20px;
                             position: relative;
                             z-index: 100;
                         }
@@ -1378,7 +1364,6 @@
                             margin-left: -25px;
                             background: rgb(255, 255, 255);
                             border-radius: 0px 20px 20px 0px;
-                            border: 4px solid $color-verde-oscuro;
                             line-height: 18px;
                             font-size: 16px;
                             text-align: end;
@@ -1391,7 +1376,6 @@
                         margin: 10px auto;
                         border-radius:10px;
                         overflow: hidden;
-                        border: 2px solid $color-verdea
                     }
     
                     .subBloque__parrafo{
@@ -1444,7 +1428,6 @@
                 text-align: center;
                 font-size: 45px;
                 line-height: 45px;
-                color: $color-verde-oscuro;
             }
             .certificado_subtitle{
                 width: 100%;
@@ -1464,8 +1447,8 @@
                 align-items:center;
                 position: relative;
                 .certificado__bloque__foto{
-                    width: 300px;
-                    height: 300px;
+                    width: 250px;
+                    height: 250px;
                     border-radius: 50%;
                     overflow: hidden;
                 }
@@ -1701,7 +1684,6 @@
                     
                 }
                 .banner__subTitle{
-                    color: $color-verde-oscuro;
                     font-size: 20px;
                     letter-spacing: 7px;
                 }
@@ -1748,12 +1730,10 @@
                         justify-content:flex-start;
                         align-items: center;
                         .figure{
-                            width: 60px;
-                            height: 60px;
+                            width: 70px;
+                            height: 70px;
                             padding: 10px;
                             border-radius: 50%;
-                            background: $color-verde-oscuro;
-                            border: 4px solid $color-verde-oscuro;
                             font-size: 20px;
                             position: relative;
                             z-index: 100;
@@ -1764,7 +1744,6 @@
                             margin-left: -25px;
                             background: rgb(255, 255, 255);
                             border-radius: 0px 20px 20px 0px;
-                            border: 4px solid $color-verde-oscuro;
                             line-height: 18px;
                             font-size: 20px;
                             text-align: end;
@@ -1777,7 +1756,6 @@
                         margin: 10px auto;
                         border-radius:10px;
                         overflow: hidden;
-                        border: 2px solid $color-verdea
                     }
     
                     .subBloque__parrafo{
@@ -1830,10 +1808,10 @@
                 text-align: center;
                 font-size: 35px;
                 line-height: 32px;
-                color: $color-verde-oscuro;
             }
             .certificado_subtitle{
-                width: 100%;
+                width: 70%;
+                line-height: 18px;
                 margin: 10px auto;
                 text-align: center;
                 color: $color-negro;

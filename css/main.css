@@ -1476,7 +1476,6 @@
     letter-spacing: -5px;
   }
   .bloque__main .banner .banner__bloqueLeft .banner__subTitle {
-    color: #10acb7;
     font-size: 35px;
     letter-spacing: 11px;
   }
@@ -1522,8 +1521,6 @@
     height: 100px;
     padding: 15px;
     border-radius: 50%;
-    background: #10acb7;
-    border: 4px solid #10acb7;
     font-size: 20px;
     position: relative;
     z-index: 100;
@@ -1534,7 +1531,7 @@
     margin-left: -15px;
     background: rgb(255, 255, 255);
     border-radius: 0px 20px 20px 0px;
-    border: 4px solid #10acb7;
+    border: 4px solid rgb(17, 83, 86);
     line-height: 25px;
   }
   .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__imagen {
@@ -1543,8 +1540,6 @@
     margin: 30px auto;
     border-radius: 10px;
     overflow: hidden;
-    background: red;
-    border: 2px solid rgba(18, 170, 181, 0.8784313725);
   }
   .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__parrafo {
     color: rgb(37, 37, 37);
@@ -1583,7 +1578,6 @@
     text-align: center;
     font-size: 60px;
     line-height: 60px;
-    color: #10acb7;
   }
   .bloque__main .certificado .certificado_subtitle {
     text-align: center;
@@ -1803,7 +1797,6 @@
     letter-spacing: -5px;
   }
   .bloque__main .banner .banner__bloqueLeft .banner__subTitle {
-    color: #10acb7;
     font-size: 30px;
     letter-spacing: 11px;
   }
@@ -1849,8 +1842,6 @@
     height: 80px;
     padding: 10px;
     border-radius: 50%;
-    background: #10acb7;
-    border: 4px solid #10acb7;
     font-size: 20px;
     position: relative;
     z-index: 100;
@@ -1861,7 +1852,6 @@
     margin-left: -25px;
     background: rgb(255, 255, 255);
     border-radius: 0px 20px 20px 0px;
-    border: 4px solid #10acb7;
     line-height: 20px;
     font-size: 20px;
     text-align: end;
@@ -1872,8 +1862,6 @@
     margin: 20px auto;
     border-radius: 10px;
     overflow: hidden;
-    background: red;
-    border: 2px solid rgba(18, 170, 181, 0.8784313725);
   }
   .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__parrafo {
     color: rgb(37, 37, 37);
@@ -1913,7 +1901,6 @@
     text-align: center;
     font-size: 50px;
     line-height: 50px;
-    color: #10acb7;
   }
   .bloque__main .certificado .certificado_subtitle {
     width: 80%;
@@ -2136,7 +2123,6 @@
     letter-spacing: -5px;
   }
   .bloque__main .banner .banner__bloqueLeft .banner__subTitle {
-    color: #10acb7;
     font-size: 25px;
     letter-spacing: 11px;
   }
@@ -2179,13 +2165,10 @@
     align-items: center;
   }
   .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__figureText .figure {
-    width: 55px;
-    height: 55px;
+    width: 70px;
+    height: 70px;
     padding: 10px;
     border-radius: 50%;
-    background: #10acb7;
-    border: 4px solid #10acb7;
-    font-size: 20px;
     position: relative;
     z-index: 100;
   }
@@ -2195,7 +2178,6 @@
     margin-left: -25px;
     background: rgb(255, 255, 255);
     border-radius: 0px 20px 20px 0px;
-    border: 4px solid #10acb7;
     line-height: 18px;
     font-size: 16px;
     text-align: end;
@@ -2206,7 +2188,6 @@
     margin: 10px auto;
     border-radius: 10px;
     overflow: hidden;
-    border: 2px solid rgba(18, 170, 181, 0.8784313725);
   }
   .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__parrafo {
     color: rgb(37, 37, 37);
@@ -2248,7 +2229,6 @@
     text-align: center;
     font-size: 45px;
     line-height: 45px;
-    color: #10acb7;
   }
   .bloque__main .certificado .certificado_subtitle {
     width: 100%;
@@ -2268,8 +2248,8 @@
     position: relative;
   }
   .bloque__main .certificado .certificado__bloque .certificado__bloque__foto {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     overflow: hidden;
   }
@@ -2473,7 +2453,6 @@
     letter-spacing: -5px;
   }
   .bloque__main .banner .banner__bloqueLeft .banner__subTitle {
-    color: #10acb7;
     font-size: 20px;
     letter-spacing: 7px;
   }
@@ -2516,12 +2495,10 @@
     align-items: center;
   }
   .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__figureText .figure {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     padding: 10px;
     border-radius: 50%;
-    background: #10acb7;
-    border: 4px solid #10acb7;
     font-size: 20px;
     position: relative;
     z-index: 100;
@@ -2532,7 +2509,6 @@
     margin-left: -25px;
     background: rgb(255, 255, 255);
     border-radius: 0px 20px 20px 0px;
-    border: 4px solid #10acb7;
     line-height: 18px;
     font-size: 20px;
     text-align: end;
@@ -2543,7 +2519,6 @@
     margin: 10px auto;
     border-radius: 10px;
     overflow: hidden;
-    border: 2px solid rgba(18, 170, 181, 0.8784313725);
   }
   .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__parrafo {
     color: rgb(37, 37, 37);
@@ -2585,10 +2560,10 @@
     text-align: center;
     font-size: 35px;
     line-height: 32px;
-    color: #10acb7;
   }
   .bloque__main .certificado .certificado_subtitle {
-    width: 100%;
+    width: 70%;
+    line-height: 18px;
     margin: 10px auto;
     text-align: center;
     color: rgb(32, 32, 32);
