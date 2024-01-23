@@ -1089,7 +1089,7 @@
   letter-spacing: -5px;
 }
 .bloque__main .banner .banner__bloqueLeft .banner__subTitle {
-  color: #10acb7;
+  color: rgb(17, 83, 86);
   font-size: 40px;
   letter-spacing: 11px;
 }
@@ -1130,15 +1130,20 @@
   align-items: center;
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__figureText .figure {
-  width: 100px;
-  height: 100px;
+  width: 95px;
+  height: 95px;
   padding: 15px;
   border-radius: 50%;
-  background: #10acb7;
-  border: 4px solid #10acb7;
-  font-size: 20px;
+  background: white;
+  border: 4px solid rgb(17, 83, 86);
   position: relative;
   z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__figureText .figure .iconsService {
+  font-size: 40px;
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__figureText .legenda {
   width: 100%;
@@ -1146,7 +1151,7 @@
   margin-left: -15px;
   background: rgb(255, 255, 255);
   border-radius: 0px 20px 20px 0px;
-  border: 4px solid #10acb7;
+  border: 4px solid rgb(17, 83, 86);
   line-height: 25px;
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__imagen {
@@ -1155,8 +1160,6 @@
   margin: 30px auto;
   border-radius: 10px;
   overflow: hidden;
-  background: red;
-  border: 2px solid rgba(18, 170, 181, 0.8784313725);
 }
 .bloque__main .servicios .servicios__bloque .servicios__bloque_subBloque .subBloque__parrafo {
   color: rgb(37, 37, 37);
@@ -1188,58 +1191,6 @@
   width: 80%;
   padding: 100px 0px;
   position: relative;
-  /*
-  .certificado_img{
-      margin: 30px auto;
-      width: 300px;
-      height: 300px;
-  }
-  .certificado__bloque{
-      width: 100%;
-      padding: 100px 0px;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      .certificado__bloque__img{
-          width: 250px;
-          height: 250px;
-          border: 2px solid black;
-          border-radius: 10px 10px;
-          overflow: hidden;
-          box-shadow: 0px 0px 10px black;
-
-      }   
-      .certificado__bloque__text{
-          padding: 10px 20px;
-          .text__nombre{
-              color: rgb(0, 0, 0);
-              font-weight: 700;
-              font-size: 30px;
-          }
-          .text__nom{
-              color: rgb(0, 0, 0);
-              font-weight: 700;
-              .texto{
-                  color: rgb(0, 0, 0);
-                  font-weight: 300;
-
-              }
-          }
-
-      }
-
-
-  }
-
-  .medalla{
-      width: 80px;
-      height: 100px;
-      position: absolute;
-      top: 680px;
-      left:300px;
-  }
-
-  */
 }
 .bloque__main .certificado .certificado_title {
   margin: auto;
@@ -1247,7 +1198,7 @@
   text-align: center;
   font-size: 70px;
   line-height: 70px;
-  color: #10acb7;
+  color: rgb(17, 83, 86);
 }
 .bloque__main .certificado .certificado_subtitle {
   text-align: center;
@@ -1269,7 +1220,6 @@
   border-radius: 50%;
   overflow: hidden;
   border: 5px solid rgb(17, 83, 86);
-  background: linear-gradient(transparent, rgba(18, 170, 181, 0.8784313725));
 }
 .bloque__main .certificado .certificado__bloque .certificado__bloque_section {
   width: 450px;
@@ -2655,8 +2605,8 @@
     position: relative;
   }
   .bloque__main .certificado .certificado__bloque .certificado__bloque__foto {
-    width: 280px;
-    height: 280px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     overflow: hidden;
   }
