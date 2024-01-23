@@ -2351,6 +2351,7 @@
     /**********************************/
     /********************************/
     /*******************************/
+    /****FLOTANTE */
   }
   .bloque__main .menu {
     width: 100%;
@@ -2368,8 +2369,8 @@
   }
   .bloque__main .menu .menu__logo {
     margin-left: 20px;
-    width: 90px;
-    height: 70px;
+    width: 80px;
+    height: 60px;
   }
   .bloque__main .menu .menu__nav {
     width: 100%;
@@ -2378,7 +2379,7 @@
     margin: 0px auto;
     display: block;
     position: absolute;
-    top: 90px;
+    top: 80px;
     left: -100%;
     transition: 0.3s all;
     opacity: 0;
@@ -2669,6 +2670,51 @@
   .bloque__main .footer__textoo .span {
     color: rgba(18, 170, 181, 0.8784313725);
     font-weight: 100;
+  }
+  .bloque__main .CONTACTAME {
+    width: auto;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    opacity: 0;
+    transition: 0.3s;
+    visibility: hidden;
+  }
+  .bloque__main .CONTACTAME .contact__logo {
+    width: 70px;
+    height: 70px;
+    animation-name: moverWats;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes moverWats {
+    from {
+      transform: scale(1, 1);
+    }
+    to {
+      transform: scale(1.1, 1.1);
+    }
+  }
+  .bloque__main .CONTACTAME .contact__legend {
+    font-size: 16px;
+    color: white;
+    background: rgb(6, 173, 6);
+    padding: 2px 15px;
+    margin-left: -20px;
+    box-shadow: 0px 0px 4px rgb(0, 0, 0);
+    border-radius: 0px 10px 10px 0px;
+  }
+  .bloque__main .iconTopJS {
+    opacity: 1;
+    visibility: visible;
   }
 }
 .bloqueMain {
