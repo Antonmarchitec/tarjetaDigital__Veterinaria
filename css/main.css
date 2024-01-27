@@ -4319,7 +4319,7 @@
   }
 }
 /********************************************************************************/
-@media (min-width: 423px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .cont__bloque {
     width: 100%;
     margin: auto;
