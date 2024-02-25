@@ -4439,4 +4439,21 @@
   color: black;
 }
 
+body {
+  scroll-behavior: unset;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgb(32, 32, 32);
+  height: 150px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=main.css.map */
