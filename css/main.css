@@ -1382,6 +1382,35 @@
   opacity: 1;
   visibility: visible;
 }
+.bloque__main .btnTop {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 150px;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.bloque__main .btnTop .iconBtnTop {
+  color: rgb(17, 83, 86);
+  animation-name: moverBtnTop;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes moverBtnTop {
+  from {
+    transform: translateY(6px);
+    color: white;
+  }
+  to {
+    transform: translateY(-6px);
+  }
+}
 
 /****************************************************/
 @media (min-width: 771px) and (max-width: 1024px) {
