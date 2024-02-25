@@ -403,9 +403,9 @@
         justify-content: center;
         align-items: center;
         z-index: 100;
-        opacity: 0;
+        opacity: 1;
         transition: 0.3s;
-        visibility: hidden;
+        visibility: visible;
         .contact__logo{
             width: 90px;
             height: 90px;
@@ -434,10 +434,7 @@
             border-radius: 0px 10px 10px 0px;
         }
     }
-    .iconTopJS{
-        opacity: 1;
-        visibility: visible;
-    }
+    
 
 
     .btnTop{
@@ -449,8 +446,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 40px;
-        
+        font-size: 50px;
+        cursor: pointer;
+        opacity: 0;
+        visibility: hidden;
+        transition: 1s all;
+
         .iconBtnTop{
             color: $color-verde;
             animation-name: moverBtnTop;
@@ -468,6 +469,10 @@
                 transform: translateY(-6px);
             }
         }
+    }
+    .btnTop_JS{
+        opacity: 1;
+        visibility: visible;
     }
     
    

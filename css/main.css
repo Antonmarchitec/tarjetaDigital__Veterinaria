@@ -1347,9 +1347,9 @@
   justify-content: center;
   align-items: center;
   z-index: 100;
-  opacity: 0;
+  opacity: 1;
   transition: 0.3s;
-  visibility: hidden;
+  visibility: visible;
 }
 .bloque__main .CONTACTAME .contact__logo {
   width: 90px;
@@ -1378,10 +1378,6 @@
   box-shadow: 0px 0px 4px rgb(0, 0, 0);
   border-radius: 0px 10px 10px 0px;
 }
-.bloque__main .iconTopJS {
-  opacity: 1;
-  visibility: visible;
-}
 .bloque__main .btnTop {
   width: 50px;
   height: 50px;
@@ -1391,7 +1387,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 50px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: 1s all;
 }
 .bloque__main .btnTop .iconBtnTop {
   color: rgb(17, 83, 86);
@@ -1410,6 +1410,10 @@
   to {
     transform: translateY(-6px);
   }
+}
+.bloque__main .btnTop_JS {
+  opacity: 1;
+  visibility: visible;
 }
 
 /****************************************************/

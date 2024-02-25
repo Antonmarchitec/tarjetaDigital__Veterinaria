@@ -6,9 +6,9 @@ window.addEventListener("scroll",()=>{
     let positionElement = btnTop.offsetTop;
     console.log(positionElement)
 
-    if(positionScroll > positionElement){
-        btnTop.classList.add("iconTopJS")
+    if(positionScroll > positionElement + 300){
+        btnTop.classList.add("btnTop_JS")
     }else{
-        btnTop.classList.remove("iconTopJS");
+        btnTop.classList.remove("btnTop_JS")
     }
 })
