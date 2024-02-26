@@ -1030,7 +1030,7 @@
   height: 70px;
 }
 .bloque__main .menu .menu__nav {
-  width: 250px;
+  width: 500px;
   padding: 10px 0px;
   margin-right: 20px;
 }
@@ -1043,19 +1043,19 @@
   align-items: center;
 }
 .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi {
-  width: 30%;
+  width: 100px;
   padding: 5px 0px;
+  background: #10acb7;
   list-style: none;
   text-align: center;
 }
 .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi .liLink {
   text-decoration: none;
   color: white;
-  transition: 0.2s all;
   padding: 5px 0px;
 }
-.bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi .liLink:hover {
-  color: #10acb7;
+.bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi:hover {
+  background: rgba(18, 170, 181, 0.8784313725);
   border-bottom: 2px solid white;
 }
 .bloque__main .menu .menu__btnHamburguesa {
@@ -1452,9 +1452,9 @@
     height: 70px;
   }
   .bloque__main .menu .menu__nav {
-    width: 250px;
-    padding: 10px 0px;
-    margin-right: 20px;
+    width: 500px;
+    padding: 0px 0px;
+    margin-right: 0px;
   }
   .bloque__main .menu .menu__nav .menu__navUl {
     width: 100%;
@@ -1465,19 +1465,19 @@
     align-items: center;
   }
   .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi {
-    width: 30%;
+    width: 100px;
     padding: 5px 0px;
+    background: #10acb7;
     list-style: none;
     text-align: center;
   }
   .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi .liLink {
     text-decoration: none;
     color: white;
-    transition: 0.2s all;
     padding: 5px 0px;
   }
-  .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi .liLink:hover {
-    color: #10acb7;
+  .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi:hover {
+    background: rgba(18, 170, 181, 0.8784313725);
     border-bottom: 2px solid white;
   }
   .bloque__main .menu .menu__btnHamburguesa {
@@ -1853,11 +1853,12 @@
   }
   .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi {
     width: 30%;
-    padding: 10px 0px;
+    padding: 5px 0px;
     list-style: none;
     text-align: center;
     transition: 0.2s all;
     border-bottom: 8px solid transparent;
+    background: transparent;
   }
   .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi .liLink {
     text-decoration: none;
@@ -1872,6 +1873,7 @@
   }
   .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi:hover {
     border-bottom: 8px solid rgb(52, 243, 247);
+    background: transparent;
   }
   .bloque__main .menu .menu__nav_JS {
     left: 0;
@@ -2258,11 +2260,12 @@
   }
   .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi {
     width: 30%;
-    padding: 10px 0px;
+    padding: 5px 0px;
     list-style: none;
     text-align: center;
     transition: 0.2s all;
     border-bottom: 8px solid transparent;
+    background: transparent;
   }
   .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi .liLink {
     text-decoration: none;
@@ -2277,6 +2280,7 @@
   }
   .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi:hover {
     border-bottom: 8px solid rgb(52, 243, 247);
+    background: transparent;
   }
   .bloque__main .menu .menu__nav_JS {
     left: 0;
@@ -2649,7 +2653,7 @@
     margin: 0px auto;
     display: block;
     position: absolute;
-    top: 80px;
+    top: 75px;
     left: -100%;
     transition: 0.3s all;
     opacity: 0;
@@ -2667,11 +2671,12 @@
   }
   .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi {
     width: 30%;
-    padding: 10px 0px;
+    padding: 5px 0px;
     list-style: none;
     text-align: center;
     transition: 0.2s all;
     border-bottom: 8px solid transparent;
+    background: transparent;
   }
   .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi .liLink {
     text-decoration: none;
@@ -2686,6 +2691,7 @@
   }
   .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi:hover {
     border-bottom: 8px solid rgb(52, 243, 247);
+    background: transparent;
   }
   .bloque__main .menu .menu__nav_JS {
     left: 0;
