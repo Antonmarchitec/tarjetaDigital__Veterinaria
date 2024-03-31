@@ -1043,9 +1043,8 @@
   align-items: center;
 }
 .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi {
-  width: 100px;
+  width: 90px;
   padding: 5px 0px;
-  background: #10acb7;
   list-style: none;
   text-align: center;
 }
@@ -1055,7 +1054,6 @@
   padding: 5px 0px;
 }
 .bloque__main .menu .menu__nav .menu__navUl .menu__navUlLi:hover {
-  background: rgba(18, 170, 181, 0.8784313725);
   border-bottom: 2px solid white;
 }
 .bloque__main .menu .menu__btnHamburguesa {

@@ -38,9 +38,8 @@
                 justify-content: space-around;
                 align-items: center;
                 .menu__navUlLi{
-                    width: 100px;
+                    width: 90px;
                     padding: 5px 0px;
-                    background:$color-verde-oscuro;
                     list-style: none;
                     text-align: center;
                     .liLink{
@@ -50,7 +49,6 @@
                     }
                 }
                 .menu__navUlLi:hover{
-                    background:$color-verdea;
                     border-bottom: 2px solid white;
                 }
 
